@@ -1,4 +1,4 @@
-#ifndef xrRender_consoleH
+﻿#ifndef xrRender_consoleH
 #define xrRender_consoleH
 #pragma once
 

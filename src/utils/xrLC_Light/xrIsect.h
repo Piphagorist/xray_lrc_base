@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 
 /* lines_intersect:  AUTHOR: Mukesh Prasad
  *

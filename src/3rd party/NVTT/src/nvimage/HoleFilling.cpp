@@ -1,4 +1,4 @@
-// This code is in the public domain -- castanyo@yahoo.es
+﻿// This code is in the public domain -- castanyo@yahoo.es
 
 #include <nvcore/Containers.h>
 #include <nvcore/Ptr.h>

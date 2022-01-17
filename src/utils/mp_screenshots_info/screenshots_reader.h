@@ -1,4 +1,4 @@
-#ifndef SCREENSHOT_READER_INCLUDED
+﻿#ifndef SCREENSHOT_READER_INCLUDED
 #define SCREENSHOT_READER_INCLUDED
 
 #include "xr_dsa_verifyer.h"

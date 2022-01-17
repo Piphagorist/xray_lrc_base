@@ -1,4 +1,4 @@
-#include "stdafx.h"
+﻿#include "stdafx.h"
 
 #include "net_global_data.h"
 #include "net_all_globals.h"

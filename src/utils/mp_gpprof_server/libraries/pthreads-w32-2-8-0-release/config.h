@@ -1,4 +1,4 @@
-/* config.h  */
+﻿/* config.h  */
 
 #ifndef PTW32_CONFIG_H
 #define PTW32_CONFIG_H

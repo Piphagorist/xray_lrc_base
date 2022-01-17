@@ -1,4 +1,4 @@
-/* config1a.h -- configuration for the LZO1A algorithm
+﻿/* config1a.h -- configuration for the LZO1A algorithm
 
    This file is part of the LZO real-time data compression library.
 

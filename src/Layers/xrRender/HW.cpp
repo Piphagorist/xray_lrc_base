@@ -1,4 +1,4 @@
-// HW.cpp: implementation of the CHW class.
+﻿// HW.cpp: implementation of the CHW class.
 //////////////////////////////////////////////////////////////////////
 
 #include "stdafx.h"

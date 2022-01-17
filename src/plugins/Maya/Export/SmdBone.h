@@ -1,4 +1,4 @@
-/***
+﻿/***
 *
 *	Copyright (c) 2001 Escape Factory, Ltd. All rights reserved.
 *

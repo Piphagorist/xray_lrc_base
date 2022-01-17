@@ -1,4 +1,4 @@
-#include "stdafx.h"
+﻿#include "stdafx.h"
 #include "base_color.h"
 
 bool	base_color::				similar	( const base_color &c, float eps /*=EPS*/ ) const

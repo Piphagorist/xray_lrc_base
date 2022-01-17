@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 
 class XRLC_LIGHT_API CThread
 {

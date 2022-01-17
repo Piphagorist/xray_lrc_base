@@ -1,4 +1,4 @@
-#ifndef	_XRLIGHT_IMPLICIED_H_
+﻿#ifndef	_XRLIGHT_IMPLICIED_H_
 #define	_XRLIGHT_IMPLICIED_H_
 class INetReader ;
 class net_task_callback;

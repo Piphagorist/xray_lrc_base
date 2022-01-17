@@ -1,4 +1,4 @@
-#ifndef UI_LevelToolsH
+﻿#ifndef UI_LevelToolsH
 #define UI_LevelToolsH
 
 // refs

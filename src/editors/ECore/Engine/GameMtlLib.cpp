@@ -1,4 +1,4 @@
-#pragma error
+﻿#pragma error
 //---------------------------------------------------------------------------
 #include "stdafx.h"
 #pragma hdrstop

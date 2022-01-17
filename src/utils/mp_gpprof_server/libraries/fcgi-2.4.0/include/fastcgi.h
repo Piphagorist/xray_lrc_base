@@ -1,4 +1,4 @@
-/* 
+﻿/* 
  * fastcgi.h --
  *
  *	Defines for the FastCGI protocol.

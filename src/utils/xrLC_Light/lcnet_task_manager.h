@@ -1,4 +1,4 @@
-#ifndef	_LCNET_TASK_MANAGER_H_
+﻿#ifndef	_LCNET_TASK_MANAGER_H_
 #define	_LCNET_TASK_MANAGER_H_
 #include "hxgrid/Interface/IAgent.h"
 #include "hxgrid/Interface/hxgridinterface.h"

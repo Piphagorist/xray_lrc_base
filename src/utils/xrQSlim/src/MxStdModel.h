@@ -1,4 +1,4 @@
-#ifndef MXSTDMODEL_INCLUDED // -*- C++ -*-
+﻿#ifndef MXSTDMODEL_INCLUDED // -*- C++ -*-
 #define MXSTDMODEL_INCLUDED
 #if !defined(__GNUC__)
 #  pragma once

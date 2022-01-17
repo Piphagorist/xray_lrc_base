@@ -1,4 +1,4 @@
-#ifndef DeviceH
+﻿#ifndef DeviceH
 #define DeviceH
 
 #include "../../../xrengine/device.h"

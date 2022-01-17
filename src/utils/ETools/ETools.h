@@ -1,4 +1,4 @@
-#ifndef EToolsH
+﻿#ifndef EToolsH
 #define EToolsH
 
 #ifdef ETOOLS_EXPORTS

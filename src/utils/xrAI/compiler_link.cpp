@@ -1,4 +1,4 @@
-#include "stdafx.h"
+﻿#include "stdafx.h"
 #include "compiler.h"
 
 IC void ProcessID(u32 ID, NodeMerged& N, u32 OurID, Marks& m_used)

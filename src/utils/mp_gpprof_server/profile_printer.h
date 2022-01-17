@@ -1,4 +1,4 @@
-#ifndef PROFILE_PRINTER_INCLUDED
+﻿#ifndef PROFILE_PRINTER_INCLUDED
 #define PROFILE_PRINTER_INCLUDED
 
 #include "profile_data_types.h"

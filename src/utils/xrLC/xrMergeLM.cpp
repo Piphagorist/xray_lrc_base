@@ -1,4 +1,4 @@
-#include "stdafx.h"
+﻿#include "stdafx.h"
 #include "build.h"
  
 IC bool cmp_defl(CDeflector *p1, CDeflector *p2)

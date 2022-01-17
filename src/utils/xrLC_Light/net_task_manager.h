@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 #include "hxgrid/Interface/IAgent.h"
 #include "hxgrid/Interface/hxgridinterface.h"
 //interface IGridUser;

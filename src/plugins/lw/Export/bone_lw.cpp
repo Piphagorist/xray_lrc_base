@@ -1,4 +1,4 @@
-#include "stdafx.h"
+﻿#include "stdafx.h"
 #include "..\..\Shared\bone.h"
 #include "..\..\Shared\envelope.h"
 

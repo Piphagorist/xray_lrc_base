@@ -1,4 +1,4 @@
-// This code is in the public domain -- castanyo@yahoo.es
+﻿// This code is in the public domain -- castanyo@yahoo.es
 
 #ifndef NVCORE_TEXTREADER_H
 #define NVCORE_TEXTREADER_H

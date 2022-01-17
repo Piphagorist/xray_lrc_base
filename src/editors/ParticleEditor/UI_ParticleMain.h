@@ -1,4 +1,4 @@
-#ifndef UI_ParticleMainH
+﻿#ifndef UI_ParticleMainH
 #define UI_ParticleMainH
 
 #include "ui_main.h"

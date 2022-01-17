@@ -1,4 +1,4 @@
-#ifndef	_NET_CL_DATA_PREPARE_H_
+﻿#ifndef	_NET_CL_DATA_PREPARE_H_
 #define	_NET_CL_DATA_PREPARE_H_
 	XRLC_LIGHT_API  void				SetGlobalCompileDataInitialized( );
 	XRLC_LIGHT_API  void				SetGlobalLightmapsDataInitialized( );

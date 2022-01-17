@@ -1,4 +1,4 @@
-#pragma	once
+﻿#pragma	once
 
 void clMsg			(const char *format, ...);
 void Status			(const char *format, ...);

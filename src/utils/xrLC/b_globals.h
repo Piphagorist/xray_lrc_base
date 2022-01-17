@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 
 
 const	u32								c_VB_maxVertices		= 65535;		// count

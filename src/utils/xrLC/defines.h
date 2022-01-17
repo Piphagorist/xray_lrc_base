@@ -1,4 +1,4 @@
-#ifndef _DEFINES_H_
+﻿#ifndef _DEFINES_H_
 #define _DEFINES_H_
 
 #define _RELEASE(x)			{ if(x) { (x)->Release();       (x)=NULL; } }

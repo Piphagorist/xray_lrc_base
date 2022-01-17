@@ -1,4 +1,4 @@
-#ifndef	_REF_MODEL_NET_GLOBAL_DATA_H_
+﻿#ifndef	_REF_MODEL_NET_GLOBAL_DATA_H_
 #define	_REF_MODEL_NET_GLOBAL_DATA_H_
 #include "net_global_data.h"
 

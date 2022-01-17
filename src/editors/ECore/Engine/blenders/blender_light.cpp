@@ -1,4 +1,4 @@
-// Blender_Vertex.cpp: implementation of the CBlender_LIGHT class.
+﻿// Blender_Vertex.cpp: implementation of the CBlender_LIGHT class.
 //
 //////////////////////////////////////////////////////////////////////
 

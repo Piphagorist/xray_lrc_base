@@ -1,4 +1,4 @@
-#include	"stdafx.h"
+﻿#include	"stdafx.h"
 #include	"tcf.h"
 #include	"net_stream.h"
 void	_TCF::barycentric	(Fvector2 &P, float &u, float &v, float &w)

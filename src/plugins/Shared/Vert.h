@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 
 const u32 BONE_NONE =	0xffffffff;
 

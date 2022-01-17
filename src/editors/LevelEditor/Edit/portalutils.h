@@ -1,4 +1,4 @@
-#ifndef PortalUtilsH
+﻿#ifndef PortalUtilsH
 #define PortalUtilsH
 
 #include "ESceneClassList.h"

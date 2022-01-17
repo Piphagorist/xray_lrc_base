@@ -1,4 +1,4 @@
-#include	"stdafx.h"
+п»ї#include	"stdafx.h"
 #pragma		hdrstop
 
 #include	"xrRender_console.h"
@@ -84,9 +84,9 @@ xr_token							qminmax_sm_token					[ ]={
 	{ 0,							0												}
 };
 
-//	“Off”
-//	“DX10.0 style [Standard]”
-//	“DX10.1 style [Higher quality]”
+//	вЂњOffвЂќ
+//	вЂњDX10.0 style [Standard]вЂќ
+//	вЂњDX10.1 style [Higher quality]вЂќ
 
 // Common
 extern int			psSkeletonUpdate;
@@ -234,7 +234,7 @@ Flags32 ps_actor_shadow_flags = {0}; //Swartz: actor shadow
 Flags32		ps_common_flags = {0};		// r1-only
 u32			ps_steep_parallax = 0;
 int			ps_r__detail_radius = 49;
-#ifdef DETAIL_RADIUS // управление радиусом отрисовки травы
+#ifdef DETAIL_RADIUS // СѓРїСЂР°РІР»РµРЅРёРµ СЂР°РґРёСѓСЃРѕРј РѕС‚СЂРёСЃРѕРІРєРё С‚СЂР°РІС‹
 u32			dm_size = 24;
 u32 		dm_cache1_line = 12;	//dm_size*2/dm_cache1_count
 u32			dm_cache_line = 49;	//dm_size+1+dm_size

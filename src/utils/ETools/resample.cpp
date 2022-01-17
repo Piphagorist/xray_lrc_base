@@ -1,4 +1,4 @@
-/* resample.c: see resample.h for interesting stuff */
+﻿/* resample.c: see resample.h for interesting stuff */
 
 #include "stdafx.h"
 

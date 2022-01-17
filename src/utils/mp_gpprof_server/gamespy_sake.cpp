@@ -1,4 +1,4 @@
-#include <stdexcept>
+﻿#include <stdexcept>
 #include <iostream>
 #include <algorithm>
 #include "gamespy_sake.h"

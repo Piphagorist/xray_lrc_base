@@ -1,4 +1,4 @@
-/* config1y.h -- configuration for the LZO1Y algorithm
+﻿/* config1y.h -- configuration for the LZO1Y algorithm
 
    This file is part of the LZO real-time data compression library.
 

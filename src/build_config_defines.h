@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 
 // CALLBACKS
 	#define EXTENDED_ITEM_CALLBACKS							// (eItemToBelt, eItemToSlot, eItemToRuck)

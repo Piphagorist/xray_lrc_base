@@ -1,4 +1,4 @@
-#ifndef _XR_GAME_MATERIALS_
+﻿#ifndef _XR_GAME_MATERIALS_
 #define _XR_GAME_MATERIALS_
 #pragma once
 

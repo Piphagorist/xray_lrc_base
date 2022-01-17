@@ -1,4 +1,4 @@
-#include "pch.h"
+﻿#include "pch.h"
 #include "configs_dump_verifyer.h"
 
 #pragma comment(lib, "xrCore.lib")

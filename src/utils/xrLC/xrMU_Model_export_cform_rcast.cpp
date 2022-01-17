@@ -1,4 +1,4 @@
-#include "stdafx.h"
+﻿#include "stdafx.h"
 #include "xrMU_Model.h"
 #include "../../xrcdb/xrcdb.h"
 #include "../shader_xrlc.h"

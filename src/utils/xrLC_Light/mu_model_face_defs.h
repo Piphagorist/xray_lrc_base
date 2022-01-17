@@ -1,4 +1,4 @@
-#ifndef _MU_MODEL_FACE_DEFS_H_
+﻿#ifndef _MU_MODEL_FACE_DEFS_H_
 #define _MU_MODEL_FACE_DEFS_H_
 struct	data_vertex;
 struct  data_face;

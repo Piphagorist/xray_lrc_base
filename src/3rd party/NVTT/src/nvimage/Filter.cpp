@@ -1,4 +1,4 @@
-// This code is in the public domain -- castanyo@yahoo.es
+﻿// This code is in the public domain -- castanyo@yahoo.es
 
 /** @file Filter.cpp
  * @brief Image filters.

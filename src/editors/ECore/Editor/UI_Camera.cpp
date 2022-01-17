@@ -1,4 +1,4 @@
-#include "stdafx.h"
+п»ї#include "stdafx.h"
 #pragma hdrstop
 
 #include "UI_Camera.h"
@@ -290,7 +290,7 @@ void CUI_Camera::ZoomExtents(const Fbox& bb)
 
 	BuildCamera();
 /*
-	eye_k - фокусное расстояние, eye_k=eye_width/2
+	eye_k - С„РѕРєСѓСЃРЅРѕРµ СЂР°СЃСЃС‚РѕСЏРЅРёРµ, eye_k=eye_width/2
 	camera.alfa:=0;
      camera.beta:=-30*pi/180;
      camera.gama:=0;

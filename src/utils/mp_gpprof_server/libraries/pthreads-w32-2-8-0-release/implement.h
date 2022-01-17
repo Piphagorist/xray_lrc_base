@@ -1,4 +1,4 @@
-/*
+﻿/*
  * implement.h
  *
  * Definitions that don't need to be public.

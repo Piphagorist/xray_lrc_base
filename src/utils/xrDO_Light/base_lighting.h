@@ -1,4 +1,4 @@
-#ifndef __BASE_LIGHTING_H__
+﻿#ifndef __BASE_LIGHTING_H__
 #define __BASE_LIGHTING_H__
 
 #include	"R_light.h"

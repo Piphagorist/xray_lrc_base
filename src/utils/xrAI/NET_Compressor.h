@@ -1,4 +1,4 @@
-// NET_Compressor.h: interface for the NET_Compressor class.
+﻿// NET_Compressor.h: interface for the NET_Compressor class.
 //
 //////////////////////////////////////////////////////////////////////
 

@@ -1,4 +1,4 @@
-#ifndef PortalH
+﻿#ifndef PortalH
 #define PortalH
 
 #include "CustomObject.h"

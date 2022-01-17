@@ -1,4 +1,4 @@
-#ifndef	_XRLIGHT_IPLICIDDEFLECTOR
+﻿#ifndef	_XRLIGHT_IPLICIDDEFLECTOR
 #define	_XRLIGHT_IPLICIDDEFLECTOR
 
 #include "lm_layer.h"

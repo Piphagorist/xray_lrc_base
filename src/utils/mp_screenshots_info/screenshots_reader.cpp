@@ -1,4 +1,4 @@
-#include "pch.h"
+﻿#include "pch.h"
 #include "screenshots_common.h"
 #include "screenshots_reader.h"
 //#include "screenshots_writer.h" //for writer::info_max_size

@@ -1,4 +1,4 @@
-#ifndef ESceneAIMapTools_ExportH
+﻿#ifndef ESceneAIMapTools_ExportH
 #define ESceneAIMapTools_ExportH
 
 //----------------------------------------------------

@@ -1,4 +1,4 @@
-// Sector.cpp: implementation of the CSector class.
+﻿// Sector.cpp: implementation of the CSector class.
 //
 //////////////////////////////////////////////////////////////////////
 

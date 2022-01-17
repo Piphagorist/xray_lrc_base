@@ -1,4 +1,4 @@
-#include "stdafx.h"
+﻿#include "stdafx.h"
 #include "LW_Shader.h"
 #include "..\..\Shared\BlenderListLoader.h"
 

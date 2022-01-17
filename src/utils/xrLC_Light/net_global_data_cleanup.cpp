@@ -1,4 +1,4 @@
-#include "stdafx.h"
+﻿#include "stdafx.h"
 
 #include "net_global_data_cleanup.h"
 #include "serialize.h"

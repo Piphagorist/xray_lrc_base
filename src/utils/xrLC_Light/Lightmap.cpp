@@ -1,4 +1,4 @@
-// Lightmap.cpp: implementation of the CLightmap class.
+﻿// Lightmap.cpp: implementation of the CLightmap class.
 //
 //////////////////////////////////////////////////////////////////////
 

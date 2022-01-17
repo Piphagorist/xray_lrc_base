@@ -1,4 +1,4 @@
-#ifndef _INCDEF_TARGASAVER_H_
+﻿#ifndef _INCDEF_TARGASAVER_H_
 #define _INCDEF_TARGASAVER_H_
 
 #pragma pack(push,1)

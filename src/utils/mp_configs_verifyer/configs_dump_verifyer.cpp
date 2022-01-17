@@ -1,4 +1,4 @@
-#include "pch.h"
+﻿#include "pch.h"
 #include "configs_dump_verifyer.h"
 #include "configs_common.h"
 //#include "configs_dumper.h"

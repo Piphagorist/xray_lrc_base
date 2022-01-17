@@ -1,4 +1,4 @@
-#ifndef TPIXEL_H
+﻿#ifndef TPIXEL_H
 #define TPIXEL_H
 
 #include <math.h>

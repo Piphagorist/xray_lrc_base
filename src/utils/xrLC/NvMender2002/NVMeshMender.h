@@ -1,4 +1,4 @@
-#ifndef NVMeshMenderH
+﻿#ifndef NVMeshMenderH
 #define NVMeshMenderH
 
 /*********************************************************************NVMH2****

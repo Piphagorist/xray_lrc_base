@@ -1,4 +1,4 @@
-#ifndef AIMapExportH
+﻿#ifndef AIMapExportH
 #define AIMapExportH
 
 //----------------------------------------------------

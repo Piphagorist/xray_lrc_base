@@ -1,4 +1,4 @@
-#ifndef EDetailModelH
+﻿#ifndef EDetailModelH
 #define EDetailModelH
 #pragma once
 

@@ -1,4 +1,4 @@
-#ifndef	_SMOTH_FLAGS_H_
+﻿#ifndef	_SMOTH_FLAGS_H_
 #define	_SMOTH_FLAGS_H_
 
 IC void set_face_adge_hard ( u32 &flags, u16 edge_idx )

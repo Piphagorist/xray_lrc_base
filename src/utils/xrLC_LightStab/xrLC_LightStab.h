@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 
 #ifdef XRLC_LIGHT_STAB_EXPORTS
 #	define XRLC_LIGHT_STUB_API __declspec(dllexport)

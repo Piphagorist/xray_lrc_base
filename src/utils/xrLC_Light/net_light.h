@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 //#include "hxgrid/Interface/IGenericStream.h"
 #include "hxgrid/Interface/IAgent.h"
 //interface IGenericStream;

@@ -1,4 +1,4 @@
-#ifndef inistream_impl_h_included
+﻿#ifndef inistream_impl_h_included
 #define inistream_impl_h_included
 
 #pragma pack(push,1)

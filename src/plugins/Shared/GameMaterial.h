@@ -1,4 +1,4 @@
-#ifndef __GAME_MATERIAL__H
+﻿#ifndef __GAME_MATERIAL__H
 #define __GAME_MATERIAL__H
 
 #include "shaders.h"

@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
  
 #include "xrdeflectordefs.h"
 #include "base_lighting.h"

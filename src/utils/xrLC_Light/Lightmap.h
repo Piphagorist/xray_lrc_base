@@ -1,4 +1,4 @@
-// Lightmap.h: interface for the CLightmap class.
+﻿// Lightmap.h: interface for the CLightmap class.
 //
 //////////////////////////////////////////////////////////////////////
 

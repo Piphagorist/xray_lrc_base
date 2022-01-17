@@ -1,4 +1,4 @@
-// BlenderDefault.cpp: implementation of the CBlender_B class.
+﻿// BlenderDefault.cpp: implementation of the CBlender_B class.
 //
 //////////////////////////////////////////////////////////////////////
 

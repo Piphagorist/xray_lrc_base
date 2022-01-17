@@ -1,4 +1,4 @@
-#ifndef UI_ShaderMainH
+﻿#ifndef UI_ShaderMainH
 #define UI_ShaderMainH
 
 #include "../ECore/Editor/UI_MainCommand.h"

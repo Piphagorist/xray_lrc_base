@@ -1,4 +1,4 @@
-#ifndef TLSpriteH
+﻿#ifndef TLSpriteH
 #define TLSpriteH
 
 #define TO_REAL(_X_, _S_)	((_X_)+1.f)*float(_S_/2)

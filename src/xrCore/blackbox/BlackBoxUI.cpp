@@ -1,4 +1,4 @@
-#include "stdafx_.h"
+﻿#include "stdafx_.h"
 #include "BugSlayerUtil.h"
 #include <stdio.h>
 

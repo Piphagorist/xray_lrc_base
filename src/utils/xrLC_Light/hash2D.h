@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 #include "serialize.h"
 template <class T, u32 s_X, u32 s_Y>
 class hash2D 

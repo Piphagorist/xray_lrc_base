@@ -1,4 +1,4 @@
-#include "stdafx.h"
+﻿#include "stdafx.h"
 
 #include "xrlight_implicit.h"
 #include "xrLight_ImplicitDeflector.h"

@@ -1,4 +1,4 @@
-#ifndef LWCHUNKS_H
+﻿#ifndef LWCHUNKS_H
 #define LWCHUNKS_H
 
 #ifndef LWID_

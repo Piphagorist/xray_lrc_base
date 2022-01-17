@@ -1,4 +1,4 @@
-#ifndef _NET_GLOBAL_DATA_H_
+﻿#ifndef _NET_GLOBAL_DATA_H_
 #define _NET_GLOBAL_DATA_H_
 #include "hxgrid/Interface/hxgridinterface.h"
 namespace	lc_net

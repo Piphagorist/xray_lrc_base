@@ -1,4 +1,4 @@
-
+﻿
 #include "xrFace.h"
 
 IC D3DXVECTOR3& cv_vector ( D3DXVECTOR3	&l, const Fvector& r  )

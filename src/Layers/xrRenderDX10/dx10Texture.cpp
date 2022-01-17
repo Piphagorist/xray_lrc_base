@@ -1,4 +1,4 @@
-// Texture.cpp: implementation of the CTexture class.
+﻿// Texture.cpp: implementation of the CTexture class.
 //
 //////////////////////////////////////////////////////////////////////
 

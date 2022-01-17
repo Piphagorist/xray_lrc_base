@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 
 struct DataVertex;
 template <typename DataVertexType> struct Tface;

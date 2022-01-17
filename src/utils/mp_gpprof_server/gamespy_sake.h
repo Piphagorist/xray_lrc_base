@@ -1,4 +1,4 @@
-#ifndef GAMESPY_SAKE_INCLUDED
+﻿#ifndef GAMESPY_SAKE_INCLUDED
 #define GAMESPY_SAKE_INCLUDED
 
 #include <vector>

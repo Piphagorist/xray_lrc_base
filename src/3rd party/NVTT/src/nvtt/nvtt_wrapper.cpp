@@ -1,4 +1,4 @@
-
+﻿
 #include "nvtt.h"
 #include "nvtt_wrapper.h"
 

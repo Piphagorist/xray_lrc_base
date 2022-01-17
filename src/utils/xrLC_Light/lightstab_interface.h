@@ -1,4 +1,4 @@
-#ifndef	_LIGHTSTAB_INTERFACE_H_
+﻿#ifndef	_LIGHTSTAB_INTERFACE_H_
 #define	_LIGHTSTAB_INTERFACE_H_
 namespace lc_net
 {

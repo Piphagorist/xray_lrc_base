@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 
 #include "xrfacedefs.h"
 #include "base_color.h"

@@ -1,4 +1,4 @@
-#include "stdafx.h"
+﻿#include "stdafx.h"
 #include "b_build_texture.h"
 #include "serialize.h"
 /*

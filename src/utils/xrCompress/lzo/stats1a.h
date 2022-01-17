@@ -1,4 +1,4 @@
-/* stats1a.h -- statistics for the the LZO1A algorithm
+﻿/* stats1a.h -- statistics for the the LZO1A algorithm
 
    This file is part of the LZO real-time data compression library.
 

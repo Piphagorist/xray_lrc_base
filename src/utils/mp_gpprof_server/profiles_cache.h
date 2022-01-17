@@ -1,4 +1,4 @@
-#ifndef PROFILES_CACHE_INCLUDED
+﻿#ifndef PROFILES_CACHE_INCLUDED
 #define PROFILES_CACHE_INCLUDED
 
 #include <vector>

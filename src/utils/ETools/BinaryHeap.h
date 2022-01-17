@@ -1,4 +1,4 @@
-#ifndef BinaryHeapH
+﻿#ifndef BinaryHeapH
 #define BinaryHeapH
 // A binary heap. Actually stores pointers to type THING, not the THINGs themselves.
 template <class THING, class SORT> class BinaryHeap

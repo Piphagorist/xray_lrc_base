@@ -1,4 +1,4 @@
-#include "stdafx.h"
+﻿#include "stdafx.h"
 //#include "build.h"
 #include "mu_model_face.h"
 #include "calculate_normals.h"

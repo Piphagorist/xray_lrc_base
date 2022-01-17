@@ -1,4 +1,4 @@
-#ifndef _XR_COMM_
+﻿#ifndef _XR_COMM_
 #define _XR_COMM_
 
 #ifdef _EDITOR

@@ -1,4 +1,4 @@
-// LightTrack.h: interface for the CLightTrack class.
+﻿// LightTrack.h: interface for the CLightTrack class.
 //
 //////////////////////////////////////////////////////////////////////
 

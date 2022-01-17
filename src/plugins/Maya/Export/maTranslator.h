@@ -1,4 +1,4 @@
-#ifndef maTranslatorH
+﻿#ifndef maTranslatorH
 #define maTranslatorH
 
 #include "ExportDefines.H"

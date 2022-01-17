@@ -1,4 +1,4 @@
-//-----------------------------------------------------------------------------
+ï»¿//-----------------------------------------------------------------------------
 // File: x_ray.cpp
 //
 // Programmers:
@@ -605,7 +605,7 @@ struct damn_keys_filter
 #undef dwFilterKeysStructSize
 #undef dwToggleKeysStructSize
 
-// Ôóíöèÿ äëÿ òóïûõ òğåáîâàíèé THQ è òóïûõ àìåğèêàíñêèõ ïîëüçîâàòåëåé
+// Ğ¤ÑƒĞ½Ñ†Ğ¸Ñ Ğ´Ğ»Ñ Ñ‚ÑƒĞ¿Ñ‹Ñ… Ñ‚Ñ€ĞµĞ±Ğ¾Ğ²Ğ°Ğ½Ğ¸Ğ¹ THQ Ğ¸ Ñ‚ÑƒĞ¿Ñ‹Ñ… Ğ°Ğ¼ĞµÑ€Ğ¸ĞºĞ°Ğ½ÑĞºĞ¸Ñ… Ğ¿Ğ¾Ğ»ÑŒĞ·Ğ¾Ğ²Ğ°Ñ‚ĞµĞ»ĞµĞ¹
 BOOL IsOutOfVirtualMemory()
 {
 #define VIRT_ERROR_SIZE 256
@@ -629,7 +629,7 @@ BOOL IsOutOfVirtualMemory()
     dwPageFileInMB = (DWORD)(statex.ullTotalPageFile / (1024 * 1024));
     dwPhysMemInMB = (DWORD)(statex.ullTotalPhys / (1024 * 1024));
 
-    // Äîâîëüíî îòôîíàğíîå óñëîâèå
+    // Ğ”Ğ¾Ğ²Ğ¾Ğ»ÑŒĞ½Ğ¾ Ğ¾Ñ‚Ñ„Ğ¾Ğ½Ğ°Ñ€Ğ½Ğ¾Ğµ ÑƒÑĞ»Ğ¾Ğ²Ğ¸Ğµ
     if ((dwPhysMemInMB > 500) && ((dwPageFileInMB + dwPhysMemInMB) > 2500))
         return 0;
 

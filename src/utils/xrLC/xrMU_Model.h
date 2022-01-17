@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 
 #undef MESHSTRUCTURE_EXSPORTS_IMPORTS
 #include "../xrlc_light/base_face.h"

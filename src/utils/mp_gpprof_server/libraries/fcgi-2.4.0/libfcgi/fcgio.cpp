@@ -1,4 +1,4 @@
-//
+﻿//
 // $Id: fcgio.cpp,v 1.13 2002/02/24 20:12:22 robs Exp $
 //
 // Allows you communicate with FastCGI streams using C++ iostreams

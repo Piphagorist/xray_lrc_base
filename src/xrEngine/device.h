@@ -1,4 +1,4 @@
-#ifndef xr_device
+п»ї#ifndef xr_device
 #define xr_device
 #pragma once
 
@@ -85,7 +85,7 @@ protected:
     CTimer_paused TimerGlobal;
 
     //AVO: 
-    CTimer frame_timer;   //TODO: проверить, не дублируется-ли схожий таймер (alpet)
+    CTimer frame_timer;   //TODO: РїСЂРѕРІРµСЂРёС‚СЊ, РЅРµ РґСѓР±Р»РёСЂСѓРµС‚СЃСЏ-Р»Рё СЃС…РѕР¶РёР№ С‚Р°Р№РјРµСЂ (alpet)
     //-AVO
 
 public:

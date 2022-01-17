@@ -1,4 +1,4 @@
-/* lzo16bit.h -- configuration for the strict 16-bit memory model
+﻿/* lzo16bit.h -- configuration for the strict 16-bit memory model
 
    This file is part of the LZO real-time data compression library.
 

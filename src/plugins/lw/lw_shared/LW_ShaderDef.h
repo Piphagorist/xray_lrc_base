@@ -1,4 +1,4 @@
-#ifndef _LW_SHADERDEF_H_
+﻿#ifndef _LW_SHADERDEF_H_
 #define _LW_SHADERDEF_H_
 #pragma once
 

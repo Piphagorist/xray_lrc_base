@@ -1,4 +1,4 @@
-#ifndef __BUILD_TEXTURE_H__
+﻿#ifndef __BUILD_TEXTURE_H__
 #define __BUILD_TEXTURE_H__
 
 #include "../../editors/LevelEditor/Engine/communicate.h"

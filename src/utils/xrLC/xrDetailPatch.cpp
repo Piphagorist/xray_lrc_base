@@ -1,4 +1,4 @@
-#include "stdafx.h"
+﻿#include "stdafx.h"
 #include "build.h"
 
 void LightPatch(Fcolor &C, Fvector &P, float scale)
@@ -65,7 +65,7 @@ void CBuild::LightPatches()
 		Fcolor C,Lumel;
 		LightPatch(C,g_pathes[i].P,.7f);
 
-		g_pathes[i].color	= �.get();
+		g_pathes[i].color	= С.get();
 
 		if (0 == i%32)		Progress(float(i)/float(g_pathes.size()));
 	}

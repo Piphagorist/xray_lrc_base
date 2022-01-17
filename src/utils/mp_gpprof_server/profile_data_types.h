@@ -1,4 +1,4 @@
-#ifndef PLAYER_AWARDS
+﻿#ifndef PLAYER_AWARDS
 #define PLAYER_AWARDS
 
 #include "atlas_stalkercoppc_v1.h"

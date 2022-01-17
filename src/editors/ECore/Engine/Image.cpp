@@ -1,4 +1,4 @@
-// Image.cpp: implementation of the CImage class.
+﻿// Image.cpp: implementation of the CImage class.
 //
 //////////////////////////////////////////////////////////////////////
 

@@ -1,4 +1,4 @@
-/* Copyright (C) Tom Forsyth, 2001. 
+﻿/* Copyright (C) Tom Forsyth, 2001. 
  * All rights reserved worldwide.
  *
  * This software is provided "as is" without express or implied

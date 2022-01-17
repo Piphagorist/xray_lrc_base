@@ -1,4 +1,4 @@
-/* lzo1c_cc.h -- definitions for the the LZO1C compression driver
+﻿/* lzo1c_cc.h -- definitions for the the LZO1C compression driver
 
    This file is part of the LZO real-time data compression library.
 

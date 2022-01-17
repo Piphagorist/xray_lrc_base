@@ -1,4 +1,4 @@
-// Texture.h: interface for the CTexture class.
+﻿// Texture.h: interface for the CTexture class.
 //
 //////////////////////////////////////////////////////////////////////
 

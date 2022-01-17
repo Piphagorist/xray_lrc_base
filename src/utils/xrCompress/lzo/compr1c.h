@@ -1,4 +1,4 @@
-
+﻿
 #define LZO_NEED_DICT_H
 #include "config1c.h"
 

@@ -1,4 +1,4 @@
-#ifndef _NET_EXECUTION_LIGHTMAPS_H_
+﻿#ifndef _NET_EXECUTION_LIGHTMAPS_H_
 #define _NET_EXECUTION_LIGHTMAPS_H_
 #include "net_execution.h"
 #include "execute_statistics.h"

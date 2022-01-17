@@ -1,4 +1,4 @@
-#ifndef _OCCLUSION_
+﻿#ifndef _OCCLUSION_
 #define _OCCLUSION_
 
 #ifdef XROCCLUSION_EXPORTS

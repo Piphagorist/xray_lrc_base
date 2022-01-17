@@ -1,4 +1,4 @@
-// EngineAPI.cpp: implementation of the CEngineAPI class.
+﻿// EngineAPI.cpp: implementation of the CEngineAPI class.
 //
 //////////////////////////////////////////////////////////////////////
 

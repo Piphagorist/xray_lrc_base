@@ -1,4 +1,4 @@
-/* fake16.h -- fake the strict 16-bit memory model for test purposes
+﻿/* fake16.h -- fake the strict 16-bit memory model for test purposes
 
    This file is part of the LZO real-time data compression library.
 

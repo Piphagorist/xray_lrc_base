@@ -1,4 +1,4 @@
-/***
+﻿/***
 * errno.h - system wide error numbers (set by system calls)
 *
 *       Copyright (c) 1985-1997, Microsoft Corporation. All rights reserved.

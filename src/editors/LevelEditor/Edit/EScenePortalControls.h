@@ -1,4 +1,4 @@
-#ifndef EScenePortalControlsH
+﻿#ifndef EScenePortalControlsH
 #define EScenePortalControlsH
 
 #include "ESceneControlsCustom.h"

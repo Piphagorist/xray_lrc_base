@@ -1,4 +1,4 @@
-#ifndef MIXMOPS_INCLUDED // -*- C++ -*-
+﻿#ifndef MIXMOPS_INCLUDED // -*- C++ -*-
 #define MIXMOPS_INCLUDED //
 #endif                   // WARNING:  Multiple inclusions allowed
 

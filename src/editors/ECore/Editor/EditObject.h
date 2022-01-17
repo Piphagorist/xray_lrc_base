@@ -1,4 +1,4 @@
-#ifndef EditObjectH
+﻿#ifndef EditObjectH
 #define EditObjectH
 
 #include "Bone.h"

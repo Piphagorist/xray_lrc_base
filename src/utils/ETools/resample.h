@@ -1,4 +1,4 @@
-/* This program is licensed under the GNU Library General Public License,
+﻿/* This program is licensed under the GNU Library General Public License,
  * version 2, a copy of which is included with this program (LICENCE.LGPL).
  *   
  * (c) 2002 Simon Hosie <gumboot@clear.net.nz>

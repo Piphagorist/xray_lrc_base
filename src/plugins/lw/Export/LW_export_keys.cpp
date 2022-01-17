@@ -1,4 +1,4 @@
-#include "stdafx.h"
+﻿#include "stdafx.h"
 #include "../../../xrCore/FileSystem.h"
 #include "../../../xrCore/FS.h"
 #include <lwrender.h>

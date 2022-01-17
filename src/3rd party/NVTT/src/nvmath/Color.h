@@ -1,4 +1,4 @@
-// This code is in the public domain -- castanyo@yahoo.es
+﻿// This code is in the public domain -- castanyo@yahoo.es
 
 #ifndef NV_MATH_COLOR_H
 #define NV_MATH_COLOR_H

@@ -1,4 +1,4 @@
-#ifndef PCH_H_INCLUDED
+﻿#ifndef PCH_H_INCLUDED
 #define PCH_H_INCLUDED
 
 #include "../../xrCore/xrCore.h"

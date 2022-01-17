@@ -1,4 +1,4 @@
-/* lzo1f.h -- public interface of the LZO1F compression algorithm
+﻿/* lzo1f.h -- public interface of the LZO1F compression algorithm
 
    This file is part of the LZO real-time data compression library.
 

@@ -1,4 +1,4 @@
-// MTexture.cpp
+﻿// MTexture.cpp
 //
 // Copyright (C) 2000-2003 Alias|Wavefront, a division of Silicon Graphics Limited.
 // 

@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 
 template<u32 range>
 struct fixed16

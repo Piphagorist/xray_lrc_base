@@ -1,4 +1,4 @@
-#include "stdafx.h"
+﻿#include "stdafx.h"
 
 #include "net_execution_lightmaps.h"
 #include "net_task.h"

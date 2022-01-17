@@ -1,4 +1,4 @@
-#ifndef XRS_H
+﻿#ifndef XRS_H
 #define XRS_H
 
 #ifdef XRSPHERICAL_EXPORTS

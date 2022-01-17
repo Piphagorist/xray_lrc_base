@@ -1,4 +1,4 @@
-// file: targasaver.h
+﻿// file: targasaver.h
 
 #ifndef _INCDEF_TARGASAVER_H_
 #define _INCDEF_TARGASAVER_H_

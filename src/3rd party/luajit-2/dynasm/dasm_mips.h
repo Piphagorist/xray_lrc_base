@@ -1,4 +1,4 @@
-/*
+﻿/*
 ** DynASM MIPS encoding engine.
 ** Copyright (C) 2005-2015 Mike Pall. All rights reserved.
 ** Released under the MIT license. See dynasm.lua for full copyright notice.

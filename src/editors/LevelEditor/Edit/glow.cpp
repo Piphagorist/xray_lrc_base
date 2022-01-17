@@ -1,4 +1,4 @@
-//----------------------------------------------------
+п»ї//----------------------------------------------------
 // file: Light.cpp
 //----------------------------------------------------
 #include "stdafx.h"
@@ -44,7 +44,7 @@ CGlow::~CGlow()
 void CGlow::OnDeviceCreate()
 {
 	if (m_bDefLoad) return;
-	// создать заново shaders
+	// СЃРѕР·РґР°С‚СЊ Р·Р°РЅРѕРІРѕ shaders
 	if (m_TexName.size()&&m_ShaderName.size()) m_GShader.create(*m_ShaderName,*m_TexName);
 	m_bDefLoad = true;
 }
@@ -52,7 +52,7 @@ void CGlow::OnDeviceCreate()
 void CGlow::OnDeviceDestroy()
 {
 	m_bDefLoad = false;
-	// удалить shaders
+	// СѓРґР°Р»РёС‚СЊ shaders
 	m_GShader.destroy();
 }
 
@@ -89,7 +89,7 @@ void CGlow::Render(int priority, bool strictB2F)
                 m_RenderSprite.Render(PPosition,m_fRadius,m_Flags.is(gfFixedSize));
                 DU_impl.DrawRomboid(PPosition, VIS_RADIUS, 0x00FF8507);
             }else{
-                // рендерим bounding sphere
+                // СЂРµРЅРґРµСЂРёРј bounding sphere
                 EDevice.SetShader(EDevice.m_WireShader);
                 DU_impl.DrawRomboid(PPosition, VIS_RADIUS, 0x00FF8507);
             }

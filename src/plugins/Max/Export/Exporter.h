@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 
 #include "..\..\Shared\helper.h"
 #include "..\..\Shared\bonedef.h"

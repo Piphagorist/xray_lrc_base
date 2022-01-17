@@ -1,4 +1,4 @@
-// TextureManager.cpp: implementation of the CResourceManager class.
+﻿// TextureManager.cpp: implementation of the CResourceManager class.
 //
 //////////////////////////////////////////////////////////////////////
 

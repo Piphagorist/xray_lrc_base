@@ -1,4 +1,4 @@
-#ifndef GroupObjectH
+﻿#ifndef GroupObjectH
 #define GroupObjectH
 
 #include "CustomObject.h"

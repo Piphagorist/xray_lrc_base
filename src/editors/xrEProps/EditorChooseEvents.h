@@ -1,4 +1,4 @@
-#ifndef EditorChooseEventsH
+﻿#ifndef EditorChooseEventsH
 #define EditorChooseEventsH
 
 #include "ChooseTypes.h"

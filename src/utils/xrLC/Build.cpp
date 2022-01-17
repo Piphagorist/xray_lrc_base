@@ -1,4 +1,4 @@
-// Build.cpp: implementation of the CBuild class.
+﻿// Build.cpp: implementation of the CBuild class.
 //
 //////////////////////////////////////////////////////////////////////
 

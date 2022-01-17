@@ -1,4 +1,4 @@
-#ifndef	_XRLC_LIGHT_H_
+﻿#ifndef	_XRLC_LIGHT_H_
 #define	_XRLC_LIGHT_H_
 #pragma once
 

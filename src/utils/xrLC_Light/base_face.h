@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 
 #include "base_basis.h"
 #include "base_color.h"

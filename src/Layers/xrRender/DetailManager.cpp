@@ -1,4 +1,4 @@
-// DetailManager.cpp: implementation of the CDetailManager class.
+﻿// DetailManager.cpp: implementation of the CDetailManager class.
 //
 //////////////////////////////////////////////////////////////////////
 

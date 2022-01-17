@@ -1,4 +1,4 @@
-#ifndef ColorH
+﻿#ifndef ColorH
 #define ColorH
 //---------------------------------------------------------------------------
 #include <Classes.hpp>

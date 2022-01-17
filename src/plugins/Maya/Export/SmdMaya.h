@@ -1,4 +1,4 @@
-#ifndef SmdMayaH
+﻿#ifndef SmdMayaH
 #define SmdMayaH
 
 #include "..\..\..\editors\Ecore\editor\EditMesh.H"

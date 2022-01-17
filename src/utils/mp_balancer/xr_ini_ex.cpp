@@ -1,4 +1,4 @@
-#include "pch.h"
+п»ї#include "pch.h"
 #pragma hdrstop
 
 #include "xr_ini_ex.h"
@@ -24,7 +24,7 @@ bool item_pred(const CInifileEx::Item& x, LPCSTR val)
 }
 
 //------------------------------------------------------------------------------
-//Тело функций Inifile
+//РўРµР»Рѕ С„СѓРЅРєС†РёР№ Inifile
 //------------------------------------------------------------------------------
  BOOL _parse(LPSTR dest, LPCSTR src)
 {

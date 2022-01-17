@@ -1,4 +1,4 @@
-#ifndef EThumbnailH
+﻿#ifndef EThumbnailH
 #define EThumbnailH
 
 #include "../Layers/xrRender/ETextureParams.h"

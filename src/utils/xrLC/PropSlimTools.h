@@ -1,4 +1,4 @@
-#ifndef PropSlimToolsH
+﻿#ifndef PropSlimToolsH
 #define PropSlimToolsH
 
 #ifdef ETOOLS_EXPORTS

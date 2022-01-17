@@ -1,4 +1,4 @@
-#ifndef _NET_GLOBAL_DATA_CLEANUP_
+﻿#ifndef _NET_GLOBAL_DATA_CLEANUP_
 #define _NET_GLOBAL_DATA_CLEANUP_
 #include "net_global_data.h"
 #include "hxgrid/Interface/IAgent.h"

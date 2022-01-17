@@ -1,4 +1,4 @@
-#ifndef Object_SlidingH
+﻿#ifndef Object_SlidingH
 #define Object_SlidingH
 
 #include "PropSlimTools.h"

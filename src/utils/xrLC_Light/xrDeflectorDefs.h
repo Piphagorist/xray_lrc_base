@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 
 #include "hash2D.h"
 class  CDeflector;

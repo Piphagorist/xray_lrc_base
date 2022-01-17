@@ -1,4 +1,4 @@
-#ifndef PROFILE_REQUEST_INCLUDED
+﻿#ifndef PROFILE_REQUEST_INCLUDED
 #define PROFILE_REQUEST_INCLUDED
 
 #include <fcgi_config.h>

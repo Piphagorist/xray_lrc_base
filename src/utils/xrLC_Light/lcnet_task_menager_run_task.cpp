@@ -1,4 +1,4 @@
-#include "stdafx.h"
+﻿#include "stdafx.h"
 
 #include "lcnet_task_manager.h"
 #include "net_execution.h"

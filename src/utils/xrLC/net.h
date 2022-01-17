@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 
 void net_light ();
 namespace lc_net

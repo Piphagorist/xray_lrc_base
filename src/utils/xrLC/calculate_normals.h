@@ -1,4 +1,4 @@
-#ifndef __CALCULATE_NORMALS_H__
+﻿#ifndef __CALCULATE_NORMALS_H__
 #define __CALCULATE_NORMALS_H__
 
 #include "itterate_adjacents_static.h"

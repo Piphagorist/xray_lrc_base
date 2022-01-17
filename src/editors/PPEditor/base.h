@@ -1,4 +1,4 @@
-#ifndef BaseH
+﻿#ifndef BaseH
 #define BaseH
 
 //#include <xrCore.h>

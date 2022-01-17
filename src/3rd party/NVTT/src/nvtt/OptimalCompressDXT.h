@@ -1,4 +1,4 @@
-// Copyright NVIDIA Corporation 2008 -- Ignacio Castano <icastano@nvidia.com>
+﻿// Copyright NVIDIA Corporation 2008 -- Ignacio Castano <icastano@nvidia.com>
 // 
 // Permission is hereby granted, free of charge, to any person
 // obtaining a copy of this software and associated documentation

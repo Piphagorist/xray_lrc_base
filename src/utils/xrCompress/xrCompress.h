@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 #ifndef XR_COMPRESS_H_INCLUDED
 #define XR_COMPRESS_H_INCLUDED
 

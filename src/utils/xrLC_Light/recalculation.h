@@ -1,4 +1,4 @@
-#ifndef __RECALCULATION_PARAMS_H__
+﻿#ifndef __RECALCULATION_PARAMS_H__
 #define __RECALCULATION_PARAMS_H__
 
 #include	"detailformat.h"

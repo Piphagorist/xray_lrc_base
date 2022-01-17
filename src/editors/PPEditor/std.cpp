@@ -1,3 +1,3 @@
-#include <xrCore.h>
+﻿#include <xrCore.h>
 #include "PostprocessAnimator.h"
  

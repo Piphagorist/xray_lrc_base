@@ -1,4 +1,4 @@
-#ifndef GeometryPartExtractorH
+﻿#ifndef GeometryPartExtractorH
 #define GeometryPartExtractorH
 
 #include "../ECore/Editor/GeometryCollector.h"

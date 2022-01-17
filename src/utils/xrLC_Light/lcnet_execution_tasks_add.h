@@ -1,4 +1,4 @@
-#ifndef		_LCNET_EXECUTION_TASKS_ADD_H_
+﻿#ifndef		_LCNET_EXECUTION_TASKS_ADD_H_
 #define		_LCNET_EXECUTION_TASKS_ADD_H_
 namespace	lc_net
 {

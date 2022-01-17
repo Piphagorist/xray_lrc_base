@@ -1,4 +1,4 @@
-#ifndef _ITTERATE_ADJACENTS_STATIC_H_
+﻿#ifndef _ITTERATE_ADJACENTS_STATIC_H_
 #define _ITTERATE_ADJACENTS_STATIC_H_
 #include "../../common/face_smoth_flags.h"
 

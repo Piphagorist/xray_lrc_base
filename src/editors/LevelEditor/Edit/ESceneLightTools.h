@@ -1,4 +1,4 @@
-#ifndef ESceneLightToolsH
+﻿#ifndef ESceneLightToolsH
 #define ESceneLightToolsH
 
 #include "ESceneCustomOTools.H"

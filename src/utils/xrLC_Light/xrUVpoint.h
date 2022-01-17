@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 
 struct UVpoint {
 	float u,v;

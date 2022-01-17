@@ -1,4 +1,4 @@
-// xrLC_Light.cpp : Defines the entry point for the DLL application.
+﻿// xrLC_Light.cpp : Defines the entry point for the DLL application.
 //
 #include "stdafx.h"
 #include "xrLc_globaldata.h"

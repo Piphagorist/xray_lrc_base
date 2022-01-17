@@ -1,4 +1,4 @@
-#include "stdafx.h"
+﻿#include "stdafx.h"
 #include <zlib.h>
 
 void compress( LPCSTR f_in, LPCSTR f_out );

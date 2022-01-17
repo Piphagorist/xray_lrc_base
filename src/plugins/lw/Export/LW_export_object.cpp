@@ -1,4 +1,4 @@
-#include "stdafx.h"
+ï»¿#include "stdafx.h"
 #include <lwrender.h>
 #include <lwhost.h>
 #include "../../../editors/ECore/Editor/editobject.h"
@@ -130,7 +130,7 @@ extern "C" {
 						}else
 							bErr = true;
 					}
-					// ïåðåíåñòè âûøå èëè ïðîâåðèòü íå ïåðåòåðàåò ëè èíôó î êîñòÿõ
+					// Ð¿ÐµÑ€ÐµÐ½ÐµÑÑ‚Ð¸ Ð²Ñ‹ÑˆÐµ Ð¸Ð»Ð¸ Ð¿Ñ€Ð¾Ð²ÐµÑ€Ð¸Ñ‚ÑŒ Ð½Ðµ Ð¿ÐµÑ€ÐµÑ‚ÐµÑ€Ð°ÐµÑ‚ Ð»Ð¸ Ð¸Ð½Ñ„Ñƒ Ð¾ ÐºÐ¾ÑÑ‚ÑÑ…
 
 					if (bErr)	g_msg->error("Export failed.",0);
 					else		g_msg->info	("Export successful.",buf);

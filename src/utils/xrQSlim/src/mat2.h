@@ -1,4 +1,4 @@
-#ifndef GFXMAT2_INCLUDED // -*- C++ -*-
+﻿#ifndef GFXMAT2_INCLUDED // -*- C++ -*-
 #define GFXMAT2_INCLUDED
 #if !defined(__GNUC__)
 #  pragma once

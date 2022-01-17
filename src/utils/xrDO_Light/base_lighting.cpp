@@ -1,4 +1,4 @@
-#include	"stdafx.h"
+﻿#include	"stdafx.h"
 #include	"base_lighting.h"
 
 void	base_lighting::select	(xr_vector<R_Light>& dest, xr_vector<R_Light>& src, Fvector& P, float R)

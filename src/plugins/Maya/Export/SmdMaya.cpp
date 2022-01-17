@@ -1,4 +1,4 @@
-#include "stdafx.h" 
+﻿#include "stdafx.h" 
 
 #include "SmdMaya.h"
 #include "..\..\..\editors\Ecore\editor\EditObject.h"

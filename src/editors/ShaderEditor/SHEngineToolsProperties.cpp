@@ -1,4 +1,4 @@
-//---------------------------------------------------------------------------
+ï»¿//---------------------------------------------------------------------------
 #include "stdafx.h"
 #pragma hdrstop
 
@@ -192,7 +192,7 @@ void CSHEngineTools::RealUpdateProperties()
             }
             data.advance(sz);
         }
-// âìåñòî ApplyChanges(true);
+// Ð²Ð¼ÐµÑÑ‚Ð¾ ApplyChanges(true);
         UpdateObjectFromStream();
         Ext.m_ItemProps->ResetModified();
 //---------------------------

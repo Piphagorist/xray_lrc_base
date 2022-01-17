@@ -1,4 +1,4 @@
-#ifndef MAYA_API_MNormalMapConverter
+﻿#ifndef MAYA_API_MNormalMapConverter
 #define MAYA_API_MNormalMapConverter
 
 

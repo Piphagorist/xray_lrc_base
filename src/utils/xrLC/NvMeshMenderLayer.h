@@ -1,4 +1,4 @@
-#ifndef __NVMESHMENDERLAYER_H__
+﻿#ifndef __NVMESHMENDERLAYER_H__
 #define __NVMESHMENDERLAYER_H__
 
 #include	"NvMender2003/nvMeshMender.h"

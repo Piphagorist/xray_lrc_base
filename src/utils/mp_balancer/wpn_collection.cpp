@@ -1,4 +1,4 @@
-#include "wpn_collection.hpp"
+﻿#include "wpn_collection.hpp"
 
 weapon_collection::weapon_collection()
 {

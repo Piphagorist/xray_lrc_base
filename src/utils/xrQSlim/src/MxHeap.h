@@ -1,4 +1,4 @@
-#ifndef MXHEAP_INCLUDED // -*- C++ -*-
+﻿#ifndef MXHEAP_INCLUDED // -*- C++ -*-
 #define MXHEAP_INCLUDED
 #if !defined(__GNUC__)
 #  pragma once

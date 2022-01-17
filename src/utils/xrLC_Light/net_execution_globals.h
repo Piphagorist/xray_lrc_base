@@ -1,4 +1,4 @@
-#ifndef	_NET_EXECUTION_GLOBALS_REG_
+﻿#ifndef	_NET_EXECUTION_GLOBALS_REG_
 #define	_NET_EXECUTION_GLOBALS_REG_
 #include "net_global_data.h"
 #include "net_execution.h"

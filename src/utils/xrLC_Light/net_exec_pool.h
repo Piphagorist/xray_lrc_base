@@ -1,4 +1,4 @@
-#ifndef _EXEC_POOL_H_
+﻿#ifndef _EXEC_POOL_H_
 #define _EXEC_POOL_H_
 #include "hxgrid/Interface/IAgent.h"
 #include "hxgrid/Interface/hxgridinterface.h"

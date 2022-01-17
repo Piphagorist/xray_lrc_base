@@ -1,4 +1,4 @@
-#include "stdafx.h"
+﻿#include "stdafx.h"
 #include "build.h"
 
 void CBuild::SaveLights(IWriter &fs)

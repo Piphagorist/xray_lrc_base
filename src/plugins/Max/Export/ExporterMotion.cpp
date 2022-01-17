@@ -1,4 +1,4 @@
-// xrSKIN_BUILD.cpp : Defines the entry point for the console application.
+﻿// xrSKIN_BUILD.cpp : Defines the entry point for the console application.
 //
 
 #include "stdafx.h"

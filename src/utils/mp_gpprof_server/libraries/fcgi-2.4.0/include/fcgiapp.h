@@ -1,4 +1,4 @@
-/*
+﻿/*
  * fcgiapp.h --
  *
  *      Definitions for FastCGI application server programs

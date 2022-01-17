@@ -1,4 +1,4 @@
-#ifndef XRMU_MODEL_H
+﻿#ifndef XRMU_MODEL_H
 #define XRMU_MODEL_H
 
 #include "mu_model_face.h"

@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 #include "Etextureparams.h"
 struct  b_BuildTexture : public b_texture
 {

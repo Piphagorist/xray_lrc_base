@@ -1,4 +1,4 @@
-// cl_collector.h: interface for the Collector class.
+﻿// cl_collector.h: interface for the Collector class.
 //
 //////////////////////////////////////////////////////////////////////
 

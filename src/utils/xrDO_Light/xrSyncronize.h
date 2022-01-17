@@ -1,4 +1,4 @@
-#ifndef xrSyncronizeH
+﻿#ifndef xrSyncronizeH
 #define xrSyncronizeH
 #pragma once
 

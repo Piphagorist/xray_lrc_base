@@ -1,4 +1,4 @@
-// xrAI.cpp : Defines the entry point for the application.
+﻿// xrAI.cpp : Defines the entry point for the application.
 //
 
 #include "stdafx.h"

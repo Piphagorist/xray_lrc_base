@@ -1,4 +1,4 @@
-#include "stdafx.h"
+﻿#include "stdafx.h"
 #include "ref_model_net_global_data.h"
 
 #include "xrlc_globaldata.h"

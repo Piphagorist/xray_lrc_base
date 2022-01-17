@@ -1,4 +1,4 @@
-/*
+﻿/*
 ** LuaJIT -- a Just-In-Time Compiler for Lua. http://luajit.org/
 **
 ** Copyright (C) 2005-2015 Mike Pall. All rights reserved.

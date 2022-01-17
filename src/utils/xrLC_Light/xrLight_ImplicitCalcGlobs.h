@@ -1,4 +1,4 @@
-#ifndef	_XRLIGHT_IMPLICITCALCGLOBS_H_
+﻿#ifndef	_XRLIGHT_IMPLICITCALCGLOBS_H_
 #define	_XRLIGHT_IMPLICITCALCGLOBS_H_
 #include "xrFaceDefs.h"
 #include "hash2d.h"

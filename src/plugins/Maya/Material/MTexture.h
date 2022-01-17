@@ -1,4 +1,4 @@
-#ifndef MAYA_API_MTexture
+﻿#ifndef MAYA_API_MTexture
 #define MAYA_API_MTexture
 
 ///////////////////////////////////////////////////////////////////

@@ -1,4 +1,4 @@
-#include "stdafx.h"
+﻿#include "stdafx.h"
 #include "camera_exporter.h"
 #include "..\..\..\editors\Ecore\editor\EditObject.h"
 

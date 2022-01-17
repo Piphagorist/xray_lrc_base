@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 typedef enum RescaleTypes
 {
     RESCALE_NONE,               // no rescale

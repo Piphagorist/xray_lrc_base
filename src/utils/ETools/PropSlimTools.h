@@ -1,4 +1,4 @@
-#ifndef PropSlimToolsH
+﻿#ifndef PropSlimToolsH
 #define PropSlimToolsH
 
 #ifndef _MAYA_EXPORT

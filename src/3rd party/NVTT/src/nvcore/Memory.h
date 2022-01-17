@@ -1,4 +1,4 @@
-// This code is in the public domain -- castanyo@yahoo.es
+﻿// This code is in the public domain -- castanyo@yahoo.es
 
 #ifndef NV_CORE_MEMORY_H
 #define NV_CORE_MEMORY_H
@@ -70,7 +70,7 @@ inline void operator delete [] (void * p) throw()
 		please do not use, install, modify or redistribute this Apple software.
 
 		In consideration of your agreement to abide by the following terms, and subject
-		to these terms, Apple grants you a personal, non-exclusive license, under Apple’s
+		to these terms, Apple grants you a personal, non-exclusive license, under AppleвЂ™s
 		copyrights in this original Apple software (the "Apple Software"), to use,
 		reproduce, modify and redistribute the Apple Software, with or without
 		modifications, in source and/or binary forms; provided that if you redistribute
@@ -98,7 +98,7 @@ inline void operator delete [] (void * p) throw()
 		(INCLUDING NEGLIGENCE), STRICT LIABILITY OR OTHERWISE, EVEN IF APPLE HAS BEEN
 		ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-	Copyright © 2006 Apple Computer, Inc., All Rights Reserved
+	Copyright В© 2006 Apple Computer, Inc., All Rights Reserved
 */
 
 /* This sample shows how to override the C++ global 'new' and 'delete' operators.  */

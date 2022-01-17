@@ -1,4 +1,4 @@
-/****************************************************************************
+﻿/****************************************************************************
  *  Contents: program for the building of static PPM tree                   *
  *  (C) 2003 by Dmitry Shkarin, e-mail: dmitry.shkarin@mtu-net.ru           *
  *  Comments: It is approximate solution. Algorithm for the building of     *

@@ -1,4 +1,4 @@
-#include "stdafx.h"
+﻿#include "stdafx.h"
 #include "xrMU_model.h"
 void xrMU_Reference::export_cform_game	(_mesh& mesh, xr_vector<cform_FailFace>& failedfaces)
 {

@@ -1,4 +1,4 @@
-/* lzo1b_de.h -- definitions for the the LZO1B/LZO1C algorithm
+﻿/* lzo1b_de.h -- definitions for the the LZO1B/LZO1C algorithm
 
    This file is part of the LZO real-time data compression library.
 

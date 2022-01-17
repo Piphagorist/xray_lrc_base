@@ -1,4 +1,4 @@
-//
+﻿//
 // Provides support for FastCGI via C++ iostreams.
 //
 // $Id: fcgio.h,v 1.15 2002/02/25 13:16:11 robs Exp $

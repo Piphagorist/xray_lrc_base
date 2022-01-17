@@ -1,4 +1,4 @@
-#ifndef __MESHSTRUCTURE_H__
+﻿#ifndef __MESHSTRUCTURE_H__
 #define __MESHSTRUCTURE_H__
 
 //#ifdef MESHSTRUCTURE_EXSPORTS_IMPORTS

@@ -1,4 +1,4 @@
-#ifndef GFXGEOM3D_INCLUDED
+﻿#ifndef GFXGEOM3D_INCLUDED
 #define GFXGEOM3D_INCLUDED
 #if !defined(__GNUC__)
 #  pragma once

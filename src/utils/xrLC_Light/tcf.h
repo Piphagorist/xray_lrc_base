@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 class INetReader;
 struct XRLC_LIGHT_API _TCF {
 	Fvector2			uv	[3];

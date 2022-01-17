@@ -1,4 +1,4 @@
-#include "stdafx.h"
+﻿#include "stdafx.h"
 #include "implicit_net_global_data.h"
 #include "xrlight_implicitcalcglobs.h"
 #include "xrLC_GlobalData.h"

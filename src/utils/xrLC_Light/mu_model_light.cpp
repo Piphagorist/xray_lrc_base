@@ -1,4 +1,4 @@
-#include "stdafx.h"
+﻿#include "stdafx.h"
 
 #include "mu_model_light.h"
 #include "mu_model_light_threads.h"

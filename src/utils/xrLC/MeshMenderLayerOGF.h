@@ -1,4 +1,4 @@
-#ifndef _MESH_MENDER_LAYER_OGF_H_
+﻿#ifndef _MESH_MENDER_LAYER_OGF_H_
 #define _MESH_MENDER_LAYER_OGF_H_
 
 #include	"../../common/NvMender2003/nvMeshMender.h"

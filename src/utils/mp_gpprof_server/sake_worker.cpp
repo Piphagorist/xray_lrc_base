@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 #include "sake_worker.h"
 
 sake_worker::sake_worker() :

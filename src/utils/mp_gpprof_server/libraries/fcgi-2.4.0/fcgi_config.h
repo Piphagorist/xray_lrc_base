@@ -1,4 +1,4 @@
-/* fcgi_config.h.  Generated automatically by configure.  */
+﻿/* fcgi_config.h.  Generated automatically by configure.  */
 /* fcgi_config.h.in.  Generated automatically from configure.in by autoheader.  */
 /* Define if you have the <arpa/inet.h> header file. */
 #define DLLAPI

@@ -1,4 +1,4 @@
-#ifndef LEClipEditorH
+﻿#ifndef LEClipEditorH
 #define LEClipEditorH
 
 #include "mxPlacemnt.hpp"

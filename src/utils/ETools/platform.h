@@ -1,4 +1,4 @@
-#ifndef __PLATFORM_H
+﻿#ifndef __PLATFORM_H
 #define __PLATFORM_H
 
 #include <stdio.h>

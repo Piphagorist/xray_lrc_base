@@ -1,4 +1,4 @@
-/*
+﻿/*
  *  Progressive Mesh type Polygon Reduction Algorithm
  *  by Stan Melax (c) 1998
  *  by Oles Shishkovtsov (c) 1999-2000

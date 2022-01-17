@@ -1,4 +1,4 @@
-#ifndef	_NET_LC_GLOBAL_DATA_H_
+﻿#ifndef	_NET_LC_GLOBAL_DATA_H_
 #define	_NET_LC_GLOBAL_DATA_H_
 
 #include "net_global_data.h"

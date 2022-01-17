@@ -1,4 +1,4 @@
-#ifndef MIXVOPS_INCLUDED // -*- C++ -*-
+﻿#ifndef MIXVOPS_INCLUDED // -*- C++ -*-
 #define MIXVOPS_INCLUDED //
 #endif                   // WARNING:  Multiple inclusions allowed
 

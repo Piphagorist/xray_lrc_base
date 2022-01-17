@@ -1,4 +1,4 @@
-
+﻿
 #include <nvimage/Filter.h>
 #include "../tools/cmdline.h"
 

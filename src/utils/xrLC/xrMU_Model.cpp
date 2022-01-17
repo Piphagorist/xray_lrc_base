@@ -1,4 +1,4 @@
-#include "stdafx.h"
+﻿#include "stdafx.h"
 #include "xrmu_model.h"
 
 poolSS<xrMU_Model::_vertex,8*1024>	mu_vertices;

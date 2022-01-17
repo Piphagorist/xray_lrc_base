@@ -1,4 +1,4 @@
-/* lzo1a_de.h -- definitions for the the LZO1A algorithm
+﻿/* lzo1a_de.h -- definitions for the the LZO1A algorithm
 
    This file is part of the LZO real-time data compression library.
 

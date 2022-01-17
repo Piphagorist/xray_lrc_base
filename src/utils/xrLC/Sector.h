@@ -1,4 +1,4 @@
-// Sector.h: interface for the CSector class.
+﻿// Sector.h: interface for the CSector class.
 //
 //////////////////////////////////////////////////////////////////////
 

@@ -1,4 +1,4 @@
-#ifndef GeometryCollectorH
+﻿#ifndef GeometryCollectorH
 #define GeometryCollectorH
 //---------------------------------------------------------------------------
 

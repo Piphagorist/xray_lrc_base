@@ -1,4 +1,4 @@
-#ifndef SAKE_WORKER_INCLUDED
+﻿#ifndef SAKE_WORKER_INCLUDED
 #define SAKE_WORKER_INCLUDED
 
 #include "gamespy_sake.h"

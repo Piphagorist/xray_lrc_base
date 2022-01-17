@@ -1,4 +1,4 @@
-#ifndef _XR_LIGHT_
+﻿#ifndef _XR_LIGHT_
 #define _XR_LIGHT_
 #pragma once
 

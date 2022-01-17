@@ -1,4 +1,4 @@
-#ifndef __GLOBAL_CALCULATION_DATA_H__
+﻿#ifndef __GLOBAL_CALCULATION_DATA_H__
 #define __GLOBAL_CALCULATION_DATA_H__
 
 #include "../../editors/LevelEditor/Engine/communicate.h"

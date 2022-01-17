@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 
 #include UP(xrXMLParser/xrXMLParser.h)
 

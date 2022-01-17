@@ -1,4 +1,4 @@
-#ifndef BLENDER_SHADOW_TEX_H
+﻿#ifndef BLENDER_SHADOW_TEX_H
 #define BLENDER_SHADOW_TEX_H
 #pragma once
 

@@ -1,4 +1,4 @@
-#include "statistics_collector.hpp"
+﻿#include "statistics_collector.hpp"
 #include "wpn_collection.hpp"
 
 statistics_collector::statistics_collector(weapon_collection* wpn_collection)

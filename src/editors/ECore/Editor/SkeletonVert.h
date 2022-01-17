@@ -1,4 +1,4 @@
-#ifndef _SkeletonVert_H_
+﻿#ifndef _SkeletonVert_H_
 #define _SkeletonVert_H_
 #pragma once
 

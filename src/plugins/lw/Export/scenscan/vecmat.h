@@ -1,4 +1,4 @@
-#ifndef _VECMAT_H_
+﻿#ifndef _VECMAT_H_
 #define _VECMAT_H_
 
 

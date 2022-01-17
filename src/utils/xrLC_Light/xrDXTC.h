@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 
 #ifdef XRDXTC_EXPORTS
 #define DXTC_API __declspec(dllexport)

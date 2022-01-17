@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 
 extern "C" {
 	typedef __declspec(dllimport)  ISE_Abstract*	__stdcall Factory_Create	(LPCSTR section);

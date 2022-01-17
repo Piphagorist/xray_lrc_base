@@ -1,4 +1,4 @@
-#ifndef MAYA_API_MTextureCache
+﻿#ifndef MAYA_API_MTextureCache
 #define MAYA_API_MTextureCache
 
 

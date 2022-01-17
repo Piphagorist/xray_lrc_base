@@ -1,4 +1,4 @@
-#include "profiles_cache.h"
+﻿#include "profiles_cache.h"
 #include <algorithm>
 #include <assert.h>
 

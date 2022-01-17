@@ -1,4 +1,4 @@
-#ifndef xrCoreH
+﻿#ifndef xrCoreH
 #define xrCoreH
 #pragma once
 

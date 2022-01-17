@@ -1,4 +1,4 @@
-#include "stdafx.h"
+﻿#include "stdafx.h"
 #include "xrImage_Filter.h"
 
 float imk_blur_gauss [7][7] =

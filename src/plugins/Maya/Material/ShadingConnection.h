@@ -1,4 +1,4 @@
-#ifndef MAYA_ShadingConnection
+﻿#ifndef MAYA_ShadingConnection
 #define MAYA_ShadingConnection
 
 ///////////////////////////////////////////////////////////////////

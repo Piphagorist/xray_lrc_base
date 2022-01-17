@@ -1,4 +1,4 @@
-#ifndef xrHemisphereH
+﻿#ifndef xrHemisphereH
 #define xrHemisphereH
 
 #pragma once

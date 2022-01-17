@@ -1,4 +1,4 @@
-#ifndef ESceneWayControlsH
+﻿#ifndef ESceneWayControlsH
 #define ESceneWayControlsH
 
 #include "ESceneControlsCustom.h"

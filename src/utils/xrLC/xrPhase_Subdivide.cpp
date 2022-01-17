@@ -1,4 +1,4 @@
-#include "stdafx.h"
+﻿#include "stdafx.h"
 #include "build.h"
 #include "../xrlc_light/xrdeflector.h"
 #include "../xrlc_light/xrface.h"

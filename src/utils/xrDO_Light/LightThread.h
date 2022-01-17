@@ -1,4 +1,4 @@
-#ifndef __LIGHTTHREAD_H__
+﻿#ifndef __LIGHTTHREAD_H__
 #define __LIGHTTHREAD_H__
 
 

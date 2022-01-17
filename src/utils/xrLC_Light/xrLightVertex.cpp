@@ -1,4 +1,4 @@
-#include "stdafx.h"
+﻿#include "stdafx.h"
 #include "xrLightVertex.h"
 #include "xrThread.h"
 #include "xrface.h"

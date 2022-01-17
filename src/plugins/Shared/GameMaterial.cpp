@@ -1,4 +1,4 @@
-#include "stdafx.h"
+ï»¿#include "stdafx.h"
 #pragma hdrstop
 
 #include "GameMaterial.h"
@@ -4225,7 +4225,7 @@ void XRayMtl::SetupGfxMultiMaps(TimeValue t, Material *mtl, MtlMakerCallback &cb
 
 // end - dds- 04.27.00 - multiple map display support
 
-//¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+//Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡
 // Returns true if the evaluated color\value (output) is constant over all 
 // possible inputs. This means all points of a face and all faces the 
 // material is assigned to.
@@ -4253,7 +4253,7 @@ bool XRayMtl::IsOutputConst
 	return true;
 }
 
-//¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+//Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡
 // Evaluates the material on a single texmap channel. 
 // For a mono channel, the value is copied in all 3 components of the 
 // output color.
@@ -4323,7 +4323,7 @@ bool XRayMtl::EvalColorStdChannel
 	return true;
 }
 
-//¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+//Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡
 // Evaluates the material on a single texmap channel. 
 //
 bool XRayMtl::EvalMonoStdChannel
@@ -4393,7 +4393,7 @@ bool XRayMtl::EvalMonoStdChannel
 	return true;
 }
 
-//¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+//Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡
 // channelID is supposed to be mapped from std subtexmap ID to subtexmap id
 //
 bool XRayMtl::EvalChannel(ShadeContext& sc, int channelID, Color& outClr)
@@ -4513,7 +4513,7 @@ bool XRayMtl::EvalChannel(ShadeContext& sc, int channelID, Color& outClr)
 	return true;
 }
 
-//¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+//Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡
 // Evaluates the bump map. Returns false if the result is not meaningful
 //
 bool XRayMtl::EvalBump( ShadeContext& sc, Color& outClr )
@@ -4531,7 +4531,7 @@ bool XRayMtl::EvalBump( ShadeContext& sc, Color& outClr )
 	return true;
 }
 
-//¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+//Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡
 // Evaluates reflection map as a color. Returns false if the result is not 
 // meaningful
 //
@@ -4561,7 +4561,7 @@ bool XRayMtl::EvalReflection( ShadeContext& sc, Color& outClr )
 	return true;
 }
 
-//¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+//Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡
 // Evaluates reflection map as (mono) value. Returns false if the result 
 // is not meaningful
 //
@@ -4588,7 +4588,7 @@ bool XRayMtl::EvalReflection( ShadeContext& sc, float& outVal )
 	return true;
 }
 
-//¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+//Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡
 // Evaluates refraction map as a color. Returns false if the result is not 
 // meaningful
 //
@@ -4615,7 +4615,7 @@ bool XRayMtl::EvalRefraction( ShadeContext& sc, Color& outClr )
 	return true;
 }
 
-//¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+//Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡
 // Evaluates reflection map as (mono) value. Returns false if the result 
 // is not meaningful
 //
@@ -4641,7 +4641,7 @@ bool XRayMtl::EvalRefraction( ShadeContext& sc, float& outVal )
 	return true;
 }
 
-//¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+//Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡
 // Evaluates Displacement map as a color. Returns false if the result is not 
 // meaningful
 //
@@ -4655,7 +4655,7 @@ bool XRayMtl::EvalDisplacement( ShadeContext& sc, float& outVal )
 	return true;
 }
 
-//¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+//Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡Ð‡
 // Helper method
 //
 bool XRayMtl::ShouldEvalSubTexmap( ShadeContext& sc, int id )

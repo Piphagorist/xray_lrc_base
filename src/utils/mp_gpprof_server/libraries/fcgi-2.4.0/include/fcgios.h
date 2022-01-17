@@ -1,4 +1,4 @@
-/*
+﻿/*
  * fcgios.h --
  *
  *      Description of file.

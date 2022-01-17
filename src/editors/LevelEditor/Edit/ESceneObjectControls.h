@@ -1,4 +1,4 @@
-#ifndef ESceneObjectControlsH
+﻿#ifndef ESceneObjectControlsH
 #define ESceneObjectControlsH
 
 #include "ESceneControlsCustom.h"

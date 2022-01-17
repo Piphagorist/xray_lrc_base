@@ -1,4 +1,4 @@
-#include "stdafx.h"
+﻿#include "stdafx.h"
 #include "xrCompress.h"
 
 //typedef void DUMMY_STUFF (const void*,const u32&,void*);

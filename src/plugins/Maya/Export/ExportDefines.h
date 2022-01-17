@@ -1,4 +1,4 @@
-#ifndef ExportDefinesH
+﻿#ifndef ExportDefinesH
 #define ExportDefinesH
 
 // refs

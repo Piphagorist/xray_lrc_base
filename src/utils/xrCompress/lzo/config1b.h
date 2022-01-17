@@ -1,4 +1,4 @@
-/* config1b.h -- configuration for the LZO1B algorithm
+﻿/* config1b.h -- configuration for the LZO1B algorithm
 
    This file is part of the LZO real-time data compression library.
 

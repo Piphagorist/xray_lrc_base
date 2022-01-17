@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 
 struct L_point {
 	int x,y;

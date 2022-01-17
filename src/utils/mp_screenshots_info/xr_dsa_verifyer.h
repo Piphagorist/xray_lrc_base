@@ -1,4 +1,4 @@
-#ifndef XR_DSA_VERIFYER_INCLUDED
+﻿#ifndef XR_DSA_VERIFYER_INCLUDED
 #define XR_DSA_VERIFYER_INCLUDED
 
 class xr_dsa_verifyer

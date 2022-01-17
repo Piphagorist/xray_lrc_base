@@ -1,4 +1,4 @@
-#ifndef __ENCODE_H
+﻿#ifndef __ENCODE_H
 #define __ENCODE_H
 
 #include <stdio.h>

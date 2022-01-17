@@ -1,4 +1,4 @@
-///////////////////////////////////////////////////////////////////
+﻿///////////////////////////////////////////////////////////////////
 // DESCRIPTION:  This class stores useful information about
 //				 a shader's attribute, including what's connected upstream of it.
 //				 It also automatically passes through shader switches.

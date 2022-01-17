@@ -1,4 +1,4 @@
-/**
+﻿/**
 @file posh.h
 @author Brian Hook
 @version 1.3.001

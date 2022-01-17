@@ -1,4 +1,4 @@
-#ifndef NV_STDSTREAM_H
+﻿#ifndef NV_STDSTREAM_H
 #define NV_STDSTREAM_H
 
 #include <nvcore/Stream.h>

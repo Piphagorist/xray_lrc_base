@@ -1,4 +1,4 @@
-#ifndef	_NET_EXECUTION_IMPLICIT_LIGHT_H_
+﻿#ifndef	_NET_EXECUTION_IMPLICIT_LIGHT_H_
 #define	_NET_EXECUTION_IMPLICIT_LIGHT_H_
 #include "net_execution.h"
 #include "xrlight_implicit.h"

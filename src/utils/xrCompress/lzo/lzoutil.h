@@ -1,4 +1,4 @@
-/* lzoutil.h -- utilitiy functions for use by applications
+﻿/* lzoutil.h -- utilitiy functions for use by applications
 
    This file is part of the LZO real-time data compression library.
 

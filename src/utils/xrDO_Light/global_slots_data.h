@@ -1,4 +1,4 @@
-#ifndef __GLOBAL_SLOTS_DATA_H__
+﻿#ifndef __GLOBAL_SLOTS_DATA_H__
 #define __GLOBAL_SLOTS_DATA_H__
 
 #include "detailformat.h"

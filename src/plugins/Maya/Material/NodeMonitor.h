@@ -1,4 +1,4 @@
-#ifndef __NodeMonitor_h__
+﻿#ifndef __NodeMonitor_h__
 #define __NodeMonitor_h__
 
 //

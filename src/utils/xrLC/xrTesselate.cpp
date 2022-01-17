@@ -1,4 +1,4 @@
-#include "stdafx.h"
+﻿#include "stdafx.h"
 #include "build.h"
 
 Vertex*	tessEdge(Face *F, int id1, int id2)

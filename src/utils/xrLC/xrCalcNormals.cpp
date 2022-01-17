@@ -1,4 +1,4 @@
-#include "stdafx.h"
+﻿#include "stdafx.h"
 #include "build.h"
 #include "../xrLC_Light/xrface.h"
 #include "../xrLC_Light/calculate_normals.h"

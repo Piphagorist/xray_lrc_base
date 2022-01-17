@@ -1,4 +1,4 @@
-#ifndef CAMERA_EXPORTER_H_INCLUDED
+﻿#ifndef CAMERA_EXPORTER_H_INCLUDED
 #define CAMERA_EXPORTER_H_INCLUDED
 
 class CXRayCameraExport: public MPxFileTranslator 

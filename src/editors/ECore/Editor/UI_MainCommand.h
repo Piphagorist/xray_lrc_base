@@ -1,4 +1,4 @@
-#ifndef UI_MainCommandH
+п»ї#ifndef UI_MainCommandH
 #define UI_MainCommandH
 
 enum{
@@ -43,7 +43,7 @@ enum{
 
     COMMAND_MUTE_SOUND,
 
-    // имеют разную реализацию
+    // РёРјРµСЋС‚ СЂР°Р·РЅСѓСЋ СЂРµР°Р»РёР·Р°С†РёСЋ
     COMMAND_CLEAR,
     COMMAND_LOAD,
     COMMAND_SAVE,

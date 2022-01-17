@@ -1,4 +1,4 @@
-#ifndef XRMUMODEL_REFERENCE_H
+﻿#ifndef XRMUMODEL_REFERENCE_H
 #define XRMUMODEL_REFERENCE_H
 
 #include "base_color.h"

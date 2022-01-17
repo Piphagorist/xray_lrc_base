@@ -1,4 +1,4 @@
-#ifndef ESceneCustomMToolsH
+﻿#ifndef ESceneCustomMToolsH
 #define ESceneCustomMToolsH
 
 #include "ESceneClassList.h"

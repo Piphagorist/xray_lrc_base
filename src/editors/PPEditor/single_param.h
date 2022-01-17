@@ -1,4 +1,4 @@
-#ifndef single_paramH
+﻿#ifndef single_paramH
 #define single_paramH
 //---------------------------------------------------------------------------
 #include <Mask.hpp>
