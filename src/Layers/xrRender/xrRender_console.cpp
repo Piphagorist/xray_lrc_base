@@ -73,7 +73,7 @@ xr_token							qmsaa__atest_token					[ ]={
 	{ 0,							0												}
 };
 
-u32			ps_r3_minmax_sm			=	3;			//	=	0;
+u32			ps_r3_minmax_sm			=	0;
 xr_token							qminmax_sm_token					[ ]={
 	{ "off",						0												},
 	{ "on",							1												},
@@ -337,7 +337,7 @@ public:
 #endif	//	USE_DX10
 	}
 
-	CCC_tf_MipBias(LPCSTR N, float*	v) : CCC_Float(N, v, -0.5f, +0.5f)	{ };
+	CCC_tf_MipBias(LPCSTR N, float*	v) : CCC_Float(N, v, -3.f, +3.f)	{ };
 	virtual void Execute(LPCSTR args)
 	{
 		CCC_Float::Execute	(args);

@@ -548,7 +548,7 @@ void SetupExceptionHandler(const bool& dedicated)
 #endif // #ifndef MASTER_GOLD
 
     BT_SetDumpType(minidump_flags);
-    BT_SetSupportEMail("cop-crash-report@stalker-game.com");
+    // BT_SetSupportEMail("cop-crash-report@stalker-game.com");
     // BT_SetSupportServer ("localhost", 9999);
     // BT_SetSupportURL ("www.gsc-game.com");
 }
