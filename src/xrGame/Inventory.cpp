@@ -25,6 +25,7 @@
 #include "clsid_game.h"
 #include "static_cast_checked.hpp"
 #include "player_hud.h"
+#include "Grenade.h"
 
 using namespace InventoryUtilities;
 //Alundaio
@@ -33,7 +34,7 @@ using namespace luabind;
 //-Alundaio
 
 // what to block
-u16	INV_STATE_LADDER		= (1<<INV_SLOT_3 | 1<<BINOCULAR_SLOT);
+u16	INV_STATE_LADDER		= INV_STATE_BLOCK_ALL;
 u16	INV_STATE_CAR			= INV_STATE_LADDER;
 u16	INV_STATE_BLOCK_ALL		= 0xffff;
 u16	INV_STATE_INV_WND		= INV_STATE_BLOCK_ALL;
@@ -307,7 +308,16 @@ bool CInventory::DropItem(CGameObject *pObj, bool just_before_destroy, bool dont
 		if (Level().CurrentViewEntity() == pActor_owner)
 			CurrentGameUI()->OnInventoryAction(pIItem, GE_OWNERSHIP_REJECT);
 	};
-	pObj->H_SetParent(0, dont_create_shell);
+	if (smart_cast<CWeapon*>(pObj))
+	{
+		Fvector dir = Actor()->Direction();
+		dir.y = sin(-45.f * PI / 180.f);
+		dir.normalize();
+		smart_cast<CWeapon*>(pObj)->SetActivationSpeedOverride(dir.mul(7));
+		pObj->H_SetParent(nullptr, dont_create_shell);
+	}
+	else
+		pObj->H_SetParent(nullptr, dont_create_shell);
 	return							true;
 }
 
@@ -316,7 +326,7 @@ bool CInventory::Slot(u16 slot_id, PIItem pIItem, bool bNotActivate, bool strict
 {
 	VERIFY(pIItem);
 	
-	if(ItemFromSlot(slot_id) == pIItem)
+	if(slot_id == NO_ACTIVE_SLOT || ItemFromSlot(slot_id) == pIItem)
 		return false;
 
 	if (!IsGameTypeSingle())
@@ -401,9 +411,9 @@ bool CInventory::Slot(u16 slot_id, PIItem pIItem, bool bNotActivate, bool strict
 		Activate				(slot_id);
 	}
 	SInvItemPlace p					= pIItem->m_ItemCurrPlace;
-	m_pOwner->OnItemSlot			(pIItem, pIItem->m_ItemCurrPlace);
 	pIItem->m_ItemCurrPlace.type	= eItemPlaceSlot;
 	pIItem->m_ItemCurrPlace.slot_id = slot_id;
+	m_pOwner->OnItemSlot			(pIItem, p);
 	pIItem->OnMoveToSlot			(p);
 	
 	pIItem->object().processing_activate();
@@ -622,7 +632,10 @@ void CInventory::Activate(u16 slot, bool bForce)
 
 PIItem CInventory::ItemFromSlot(u16 slot) const
 {
-	VERIFY(NO_ACTIVE_SLOT != slot);
+	if (slot == NO_ACTIVE_SLOT)
+		return (0);
+
+	//VERIFY(NO_ACTIVE_SLOT != slot);
 	return m_slots[slot].m_pIItem;
 }
 
