@@ -106,13 +106,20 @@ void CLevel::g_sv_Spawn		(CSE_Abstract* E)
 	// Client spawn
 //	T.Start		();
 	CObject*	O		= Objects.Create	(*E->s_name);
-	// Msg				("--spawn--CREATE: %f ms",1000.f*T.GetAsync());
+	if (!O)
+	{
+		Msg("! Failed to create entity '%s'", *E->s_name);
+		return;
+	}
 
-//	T.Start		();
+	//Alundaio: Knowing last object to spawn can be very useful to debugging
+	if (Core.ParamFlags.test(Core.verboselog))
+		Msg("Try Spawning object Name:[%s] Section:[%s] ID:[%d] ParentID:[%d]", E->name_replace(), *E->s_name, E->ID,E->ID_Parent);
+
 #ifdef DEBUG_MEMORY_MANAGER
 	mem_alloc_gather_stats		(false);
 #endif // DEBUG_MEMORY_MANAGER
-	if (0==O || (!O->net_Spawn	(E))) 
+	if (!O->net_Spawn(E))
 	{
 		O->net_Destroy			( );
 		if(!g_dedicated_server)
@@ -187,7 +194,10 @@ void CLevel::g_sv_Spawn		(CSE_Abstract* E)
 
 	//---------------------------------------------------------
 	Game().OnSpawn				(O);
-	//---------------------------------------------------------
+
+	if (Core.ParamFlags.test(Core.verboselog))
+		Msg("[%d] net_Spawn successful", E->ID);
+
 #ifdef DEBUG_MEMORY_MANAGER
 	if (g_bMEMO) {
 		lua_gc					(ai().script_engine().lua(),LUA_GCCOLLECT,0);

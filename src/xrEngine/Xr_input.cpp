@@ -520,6 +520,8 @@ void CInput::MouseUpdate()
         if (timeStamp[1] && ((dwCurTime - timeStamp[1]) >= mouse_property.mouse_dt)) cbStack.back()->IR_OnMouseStop(DIMOFS_Y, timeStamp[1] = 0);
         if (timeStamp[0] && ((dwCurTime - timeStamp[0]) >= mouse_property.mouse_dt)) cbStack.back()->IR_OnMouseStop(DIMOFS_X, timeStamp[0] = 0);
     }
+
+#	pragma pop_macro("FIELD_OFFSET")
 }
 
 //-------------------------------------------------------
