@@ -1732,7 +1732,7 @@ void CActor::ForceTransform(const Fmatrix& m)
         character_physics_support()->movement()->BlockDamageSet(u64(block_damage_time_seconds / fixed_step));
 }
 
-ENGINE_API extern float		psHUD_FOV;
+//ENGINE_API extern float		psHUD_FOV;
 float CActor::Radius()const
 {
     float R = inherited::Radius();

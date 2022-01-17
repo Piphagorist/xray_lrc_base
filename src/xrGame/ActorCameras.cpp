@@ -20,6 +20,9 @@
 #include "CharacterPhysicsSupport.h"
 #include "EffectorShot.h"
 
+ENGINE_API extern float psHUD_FOV; //--#SM+#--
+ENGINE_API extern float psHUD_FOV_def; //--#SM+#--
+
 #include "PHMovementControl.h"
 #include "../xrphysics/ielevatorstate.h"
 #include "../xrphysics/actorcameracollision.h"
