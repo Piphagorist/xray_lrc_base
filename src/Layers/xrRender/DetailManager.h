@@ -38,7 +38,7 @@ const float		dm_slot_size		= DETAIL_SLOT_SIZE;
 //AVO: detail radius
 #include "../../build_config_defines.h"
 #ifdef DETAIL_RADIUS
-const u32		dm_max_cache_size = 62001; // assuming max dm_size = 124
+const u32		dm_max_cache_size = 62001 * 2; // assuming max dm_size = 124
 extern u32		dm_size;
 extern u32 		dm_cache1_line;
 extern u32		dm_cache_line;
@@ -108,7 +108,7 @@ public:
 	typedef	xr_vector<xr_vector <SlotItemVec* > >	vis_list;
 	typedef	svector<CDetail*,dm_max_objects>	DetailVec;
 	typedef	DetailVec::iterator					DetailIt;
-	typedef	poolSS<SlotItem,4096>				PSS;
+	typedef	poolSS<SlotItem, /*4096*/ 65536> PSS; // KD: try to avoid blinking
 public:
 	int								dither			[16][16];
 public:
