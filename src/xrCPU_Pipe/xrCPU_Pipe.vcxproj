@@ -162,7 +162,7 @@
       <WarningLevel>Level4</WarningLevel>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <DisableSpecificWarnings>4995</DisableSpecificWarnings>
+      <DisableSpecificWarnings>4459;4577;4595;4995;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <UndefinePreprocessorDefinitions>USE_LUAJIT_ONE</UndefinePreprocessorDefinitions>
       <MinimalRebuild>false</MinimalRebuild>
     </ClCompile>
@@ -440,10 +440,6 @@
   <ItemGroup>
     <ProjectReference Include="..\xrCore\xrCore.vcxproj">
       <Project>{a0f7d1fb-59a7-4717-a7e4-96f37e91998e}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="..\xrEngine\xrEngine.vcxproj">
-      <Project>{2578c6d8-660d-48ae-9322-7422f8664f06}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

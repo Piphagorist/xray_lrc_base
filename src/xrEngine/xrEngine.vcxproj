@@ -139,43 +139,31 @@
     <_ProjectFileVersion>12.0.30501.0</_ProjectFileVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>$(xrGameDir)bin_dbg\</OutDir>
-    <IntDir>$(xrIntDir)$(ProjectName)\</IntDir>
     <ExtensionsToDeleteOnClean>*.idb%3b*.obj%3b*.ilk%3b*.pdb%3b*.tlb%3b*.tli%3b*.tlh%3b*.tmp%3b*.rsp%3b*.bat%3b$(TargetPath)</ExtensionsToDeleteOnClean>
     <IgnoreImportLibrary>true</IgnoreImportLibrary>
     <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mixed|Win32'">
-    <OutDir>$(xrBinDir)</OutDir>
-    <IntDir>$(xrIntDir)$(ProjectName)\</IntDir>
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_NEW|Win32'">
-    <OutDir>$(xrGameDir)bin_dbg\</OutDir>
-    <IntDir>$(xrIntDir)$(ProjectName)\</IntDir>
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_LuaJit_one|Win32'">
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Dedicated|Win32'">
-    <OutDir>$(xrBinDir)dedicated\</OutDir>
-    <IntDir>$(xrIntDir)$(ProjectName)\</IntDir>
     <ExtensionsToDeleteOnClean>*.idb%3b*.obj%3b*.ilk%3b*.pdb%3b*.tlb%3b*.tli%3b*.tlh%3b*.tmp%3b*.rsp%3b*.bat%3b$(TargetPath)</ExtensionsToDeleteOnClean>
     <IgnoreImportLibrary>true</IgnoreImportLibrary>
     <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mixed_Dedicated|Win32'">
-    <OutDir>$(xrBinDir)dedicated\</OutDir>
-    <IntDir>$(xrIntDir)$(ProjectName)\</IntDir>
     <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Dedicated|Win32'">
-    <OutDir>$(xrBinDir)dedicated\</OutDir>
-    <IntDir>$(xrIntDir)$(ProjectName)\</IntDir>
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -212,7 +200,7 @@
     </ResourceCompile>
     <Link>
       <AdditionalOptions>/ignore:4099 /MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>vfw32.lib;libogg_static.lib;libtheora_static.lib;oalib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>vfw32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ShowProgress>NotSet</ShowProgress>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>$(xr3rdPartyDir)\luajit-2\bin\$(PlatformShortName)\;$(xrSdkDir)libraries;$(xrLibDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -259,7 +247,7 @@
     </ResourceCompile>
     <Link>
       <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>vfw32.lib;libogg_static.lib;libtheora_static.lib;oalib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>vfw32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>$(xr3rdPartyDir)\luajit-2\bin\$(PlatformShortName)\;$(xrSdkDir)libraries;$(xrLibDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -309,7 +297,7 @@
       <Culture>0x0422</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>vfw32.lib;libogg_static.lib;libtheora_static.lib;oalib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>vfw32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>$(xr3rdPartyDir)\luajit-2\bin\$(PlatformShortName)\;$(xrSdkDir)libraries;$(xrLibDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -362,7 +350,7 @@
       <Culture>0x0422</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>vfw32.lib;libogg_static.lib;libtheora_static.lib;oalib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>vfw32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>$(xr3rdPartyDir)\luajit-2\bin\$(PlatformShortName)\;$(xrSdkDir)libraries;$(xrLibDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -416,7 +404,7 @@
       <Culture>0x0422</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>vfw32.lib;libogg_static.lib;libtheora_static.lib;oalib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>vfw32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>$(xr3rdPartyDir)\luajit-2\bin\$(PlatformShortName)\;$(xrSdkDir)libraries;$(xrLibDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -469,7 +457,7 @@
     </ResourceCompile>
     <Link>
       <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>vfw32.lib;libogg_static.lib;libtheora_static.lib;oalib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>vfw32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ShowProgress>NotSet</ShowProgress>
       <OutputFile>$(OutDir)$(TargetName).exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
@@ -517,7 +505,7 @@
     </ResourceCompile>
     <Link>
       <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>vfw32.lib;libogg_static.lib;libtheora_static.lib;oalib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>vfw32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)$(TargetName).exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>$(xr3rdPartyDir)\luajit-2\bin\$(PlatformShortName)\;$(xrSdkDir)libraries;$(xrLibDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -565,7 +553,7 @@
     </ResourceCompile>
     <Link>
       <AdditionalOptions>/MACHINE:I386  %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>vfw32.lib;libogg_static.lib;libtheora_static.lib;oalib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>vfw32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)$(TargetName).exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>$(xr3rdPartyDir)\luajit-2\bin\$(PlatformShortName)\;$(xrSdkDir)libraries;$(xrLibDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -909,6 +897,48 @@
     <ProjectReference Include="$(SolutionDir)xrSound\xrSound.vcxproj">
       <Project>{ccca7859-eb86-493e-9b53-c4235f45b3c5}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\sdk\include\jpeg\vs2013\libjpeg.vcxproj">
+      <Project>{938C5808-85A1-4B5A-8CB4-D2D9D7851CB8}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\sdk\include\ogg\vs2013\libogg_static.vcxproj">
+      <Project>{893887A1-3ABF-40A0-B931-CD0867010785}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\sdk\include\theora\vs2013\libtheora_static.vcxproj">
+      <Project>{0BDF3377-F84E-4B42-A605-B45AAA244CB6}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\sdk\include\vorbis\vs2013\libvorbisfile_static.vcxproj">
+      <Project>{CEBDE98B-A6AA-46E6-BC79-FAAF823DB9EC}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\sdk\include\vorbis\vs2013\libvorbis_static.vcxproj">
+      <Project>{3A214E06-B95E-4D61-A291-1F8DF2EC10FD}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\3rd party\crypto\crypto.vcxproj">
+      <Project>{FA169092-EA3E-40C1-8E5A-A2B575700FE8}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\3rd party\cximage\cximage.vcxproj">
+      <Project>{880CD250-BA77-4DAF-A8D4-552F12DD3AE4}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\3rd party\DXERR\DXERR.vcxproj">
+      <Project>{772FE450-F4F3-4687-A2A7-5624825089D7}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\3rd party\lua-extensions\lua_extensions.vcxproj">
+      <Project>{44F716E7-05BD-4390-AB02-5F7DAF7FEFDE}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\3rd party\ode\contrib\msvc7\ode_default\default.vcxproj">
+      <Project>{1BF75FEB-87DD-486C-880B-227987D191C2}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\xrCDB\xrCDB.vcxproj">
+      <Project>{A19B1DF2-82EC-4364-8BDF-85D13A1C89B5}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\xrCore\xrCore.vcxproj">
+      <Project>{a0f7d1fb-59a7-4717-a7e4-96f37e91998e}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\xrCPU_Pipe\xrCPU_Pipe.vcxproj">
+      <Project>{ca0649dd-d089-423a-981c-46b57a884eb9}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\xrPhysics\xrPhysics.vcxproj">
+      <Project>{98d24a3d-7666-4c11-9d6e-b10393ce8cba}</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

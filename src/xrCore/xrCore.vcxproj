@@ -163,6 +163,7 @@
       <WarningLevel>Level4</WarningLevel>
       <UndefinePreprocessorDefinitions>USE_LUAJIT_ONE</UndefinePreprocessorDefinitions>
       <MinimalRebuild>false</MinimalRebuild>
+      <DisableSpecificWarnings>4456;4459;4595;4702;</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>$(xrSdkDir)libraries;$(XRAY_16X_LIBS)BugTrap\Bin;$(xrLibDir);$(DXSDK_DIR)Include;$(DXSDK_DIR)lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -706,6 +707,11 @@
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="xrCore.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\3rd party\DxErr\DxErr.vcxproj">
+      <Project>{772FE450-F4F3-4687-A2A7-5624825089D7}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

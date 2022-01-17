@@ -1,6 +1,4 @@
 ﻿#include	"stdafx.h"
-#pragma		hdrstop
-
 #include	"xrRender_console.h"
 #include	"dxRenderDeviceRender.h"
 

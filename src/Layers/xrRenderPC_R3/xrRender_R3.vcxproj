@@ -98,16 +98,12 @@
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_NEW|Win32'">
-    <OutDir>$(xrGameDir)bin_dbg\</OutDir>
-    <IntDir>$(xrIntDir)$(ProjectName)\</IntDir>
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_LuaJit_one|Win32'">
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mixed|Win32'">
-    <OutDir>$(xrBinDir)</OutDir>
-    <IntDir>$(xrIntDir)$(ProjectName)\</IntDir>
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -165,6 +161,7 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <WarningLevel>Level4</WarningLevel>
+      <DisableSpecificWarnings>4456;4457;4458;4459;4595;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <AdditionalOptions>-Zm110 %(AdditionalOptions)</AdditionalOptions>
       <UndefinePreprocessorDefinitions>USE_LUAJIT_ONE</UndefinePreprocessorDefinitions>
       <DisableSpecificWarnings>4005;4099</DisableSpecificWarnings>
