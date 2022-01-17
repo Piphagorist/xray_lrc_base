@@ -79,7 +79,7 @@ public:
         u32		nvdbt				: 1;
 
         u32		nullrt				: 1;
-
+        u32 	no_ram_textures 	: 1; // don't keep textures in RAM
         u32		distortion			: 1;
         u32		distortion_enabled	: 1;
         u32		mblur				: 1;
