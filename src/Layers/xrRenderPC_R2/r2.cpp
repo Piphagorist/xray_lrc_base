@@ -242,11 +242,17 @@ void					CRender::create					()
         Msg("* Managed textures disabled");
 
 	// options (smap-pool-size)
-	if (strstr(Core.Params,"-smap1536"))	o.smapsize	= 1536;
-	if (strstr(Core.Params,"-smap2048"))	o.smapsize	= 2048;
-	if (strstr(Core.Params,"-smap2560"))	o.smapsize	= 2560;
-	if (strstr(Core.Params,"-smap3072"))	o.smapsize	= 3072;
-	if (strstr(Core.Params,"-smap4096"))	o.smapsize	= 4096;
+	if (r2_SmapSize >= 1024 && r2_SmapSize <= 4096)
+		o.smapsize = r2_SmapSize;
+	else if (r2_SmapSize > 4096) {
+		D3DCAPS9 caps;
+		CHK_DX(HW.pDevice->GetDeviceCaps(&caps));
+		auto video_mem = HW.pDevice->GetAvailableTextureMem();
+		if (caps.MaxTextureHeight >= r2_SmapSize && video_mem > 512)
+			o.smapsize = r2_SmapSize;
+	}
+
+	Msg("Shadow Map resolution: %ux%u", o.smapsize, o.smapsize);
 
 	// gloss
 	char*	g			= strstr(Core.Params,"-gloss ");

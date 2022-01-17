@@ -56,6 +56,20 @@ xr_token							qsun_quality_token							[ ]={
 	{ 0,							0												}
 };
 
+u32 r2_SmapSize = 1024;
+xr_token SmapSizeToken[] = {
+	{ "1024x1024",   1024 },
+	{ "1536x1536",   1536 },
+	{ "2048x2048",   2048 },
+	{ "2560x2560",   2560 },
+	{ "3072x3072",   3072 },
+	{ "4096x4096",   4096 },
+	{ "6144x6144",   6144 },
+	{ "8192x8192",   8192 },
+	{ "16384x16384", 16384 },
+	{ nullptr, 0 }
+};
+
 u32			ps_r3_msaa				=	0;			//	=	0;
 xr_token							qmsaa_token							[ ]={
 	{ "st_opt_off",					0												},
@@ -917,6 +931,8 @@ void		xrRender_initconsole	()
 	CMD3(CCC_Mask,		"r2_detail_bump",				&ps_r2_ls_flags,			R2FLAG_DETAIL_BUMP);
 
 	CMD3(CCC_Token,		"r2_sun_quality",				&ps_r_sun_quality,			qsun_quality_token);
+
+	CMD3(CCC_Token, 	"r__smap_size", 				&r2_SmapSize, 				SmapSizeToken);
 
 	//	Igor: need restart
 	CMD3(CCC_Mask,		"r2_soft_water",				&ps_r2_ls_flags,			R2FLAG_SOFT_WATER);
