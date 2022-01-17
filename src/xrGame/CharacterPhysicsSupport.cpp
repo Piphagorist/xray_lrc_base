@@ -39,7 +39,7 @@
 #include "activatingcharcollisiondelay.h"
 #include "stalker_movement_manager_smart_cover.h"
 
-#include "../build_config_defines.h"
+//#include "../build_config_defines.h"
 
 //const float default_hinge_friction = 5.f;//gray_wolf comment
 #ifdef DEBUG
@@ -1166,7 +1166,7 @@ void	CCharacterPhysicsSupport::	CreateShell						( CObject* who, Fvector& dp, Fv
 	m_eState=esDead;
 	m_flags.set(fl_skeleton_in_shell,TRUE);
 	
-	if(IsGameTypeSingle())
+	/*if(IsGameTypeSingle())
 	{
 		m_pPhysicsShell->SetPrefereExactIntegration	();//use exact integration for ragdolls in single
         //AVO: turn on collision with dead bodies (thanks malandrinus)
@@ -1176,7 +1176,7 @@ void	CCharacterPhysicsSupport::	CreateShell						( CObject* who, Fvector& dp, Fv
         //-AVO
 	}
 	else
-		m_pPhysicsShell->SetIgnoreDynamic();
+		m_pPhysicsShell->SetIgnoreDynamic();*/
 	m_pPhysicsShell->SetIgnoreSmall();
 	AddActiveWeaponCollision();
 }
@@ -1194,7 +1194,7 @@ if( dbg_draw_ragdoll_spawn )
 #endif
 
 	CollisionCorrectObjPos( dp );
-	m_pPhysicsShell->SetGlTransformDynamic(mXFORM);
+	//m_pPhysicsShell->SetGlTransformDynamic(mXFORM);
 
 #ifdef	DEBUG
 if( dbg_draw_ragdoll_spawn )
@@ -1205,7 +1205,7 @@ if( dbg_draw_ragdoll_spawn )
 }
 #endif
 	//fly back after correction
-	FlyTo(Fvector().sub(inital_entity_position,m_EntityAlife.Position()));
+	//FlyTo(Fvector().sub(inital_entity_position,m_EntityAlife.Position()));
 
 #ifdef	DEBUG
 if( dbg_draw_ragdoll_spawn )
@@ -1225,10 +1225,10 @@ if( dbg_draw_ragdoll_spawn )
 		}
 #endif
 
-	m_pPhysicsShell->set_LinearVel( v );
+	//m_pPhysicsShell->set_LinearVel( v );
 	//actualize
-	m_pPhysicsShell->GetGlobalTransformDynamic(&mXFORM);
-	m_pPhysicsShell->mXFORM.set(mXFORM);
+	//m_pPhysicsShell->GetGlobalTransformDynamic(&mXFORM);
+	//m_pPhysicsShell->mXFORM.set(mXFORM);
 
 
 
@@ -1241,7 +1241,7 @@ if( dbg_draw_ragdoll_spawn )
 	//	m_pPhysicsShell->AnimToVelocityState( Device.fTimeDelta, 2 * default_l_limit, 10.f * default_w_limit );
 	//	mXFORM.set( sv_xform );
 	//}
-	IKinematics* K=smart_cast<IKinematics*>( m_EntityAlife.Visual( ) );
+	//IKinematics* K=smart_cast<IKinematics*>( m_EntityAlife.Visual( ) );
 	//u16 root =K->LL_GetBoneRoot();
 	//if( root!=0 )
 	//{
@@ -1250,8 +1250,8 @@ if( dbg_draw_ragdoll_spawn )
 	//	K->LL_SetBoneVisible( 0, FALSE, FALSE );
 	//}
 	
-	K->CalculateBones_Invalidate();
-	K->CalculateBones	(TRUE);
+	//K->CalculateBones_Invalidate();
+	//K->CalculateBones	(TRUE);
 }
 
 void CCharacterPhysicsSupport::in_ChangeVisual()
