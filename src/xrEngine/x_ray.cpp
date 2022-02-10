@@ -67,57 +67,6 @@ static char szEngineHash[33] = DEFAULT_MODULE_HASH;
 
 char * ComputeModuleHash( char * pszHash )
 {
-    //SECUROM_MARKER_HIGH_SECURITY_ON(3)
-
-    char szModuleFileName[MAX_PATH];
-    HANDLE hModuleHandle = NULL, hFileMapping = NULL;
-    LPVOID lpvMapping = NULL;
-    MEMORY_BASIC_INFORMATION MemoryBasicInformation;
-
-    if (!GetModuleFileName(NULL, szModuleFileName, MAX_PATH))
-        return pszHash;
-
-    hModuleHandle = CreateFile(szModuleFileName, GENERIC_READ, FILE_SHARE_READ, NULL, OPEN_EXISTING, 0, NULL);
-
-    if (hModuleHandle == INVALID_HANDLE_VALUE)
-        return pszHash;
-
-    hFileMapping = CreateFileMapping(hModuleHandle, NULL, PAGE_READONLY, 0, 0, NULL);
-
-    if (hFileMapping == NULL)
-    {
-        CloseHandle(hModuleHandle);
-        return pszHash;
-    }
-
-    lpvMapping = MapViewOfFile(hFileMapping, FILE_MAP_READ, 0, 0, 0);
-
-    if (lpvMapping == NULL)
-    {
-        CloseHandle(hFileMapping);
-        CloseHandle(hModuleHandle);
-        return pszHash;
-    }
-
-    ZeroMemory(&MemoryBasicInformation, sizeof(MEMORY_BASIC_INFORMATION));
-
-    VirtualQuery(lpvMapping, &MemoryBasicInformation, sizeof(MEMORY_BASIC_INFORMATION));
-
-    if (MemoryBasicInformation.RegionSize)
-    {
-        char szHash[33];
-        MD5Digest((unsigned char*)lpvMapping, (unsigned int)MemoryBasicInformation.RegionSize, szHash);
-        MD5Digest((unsigned char*)szHash, 32, pszHash);
-        for (int i = 0; i < 32; ++i)
-            pszHash[i] = (char)toupper(pszHash[i]);
-    }
-
-    UnmapViewOfFile(lpvMapping);
-    CloseHandle(hFileMapping);
-    CloseHandle(hModuleHandle);
-
-    //SECUROM_MARKER_HIGH_SECURITY_OFF(3)
-
     return pszHash;
 }
 
@@ -725,7 +674,7 @@ int APIENTRY WinMain_impl(HINSTANCE hInstance,
     }
 #endif
 
-    SetThreadAffinityMask(GetCurrentThread(), 1);
+    //SetThreadAffinityMask(GetCurrentThread(), 1);
 
     // Title window
     logoWindow = CreateDialog(GetModuleHandle(NULL), MAKEINTRESOURCE(IDD_STARTUP), 0, logDlgProc);

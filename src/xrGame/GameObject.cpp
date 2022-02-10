@@ -112,6 +112,9 @@ void CGameObject::net_Destroy	()
 #endif
 
 	VERIFY					(m_spawned);
+	if (!m_spawned)
+		Msg("!![%s] Already destroyed object detected: [%s]", __FUNCTION__, this->cName().c_str());
+
 	if( m_anim_mov_ctrl )
 					destroy_anim_mov_ctrl	();
 
@@ -241,6 +244,9 @@ void VisualCallback(IKinematics *tpKinematics);
 BOOL CGameObject::net_Spawn		(CSE_Abstract*	DC)
 {
 	VERIFY							(!m_spawned);
+	if (m_spawned)
+		Msg("!![%s] Already spawned object detected: [%s]", __FUNCTION__, this->cName().c_str());
+
 	m_spawned						= true;
 	m_spawn_time					= Device.dwFrame;
 	m_ai_obstacle					= xr_new<ai_obstacle>(this);
@@ -298,8 +304,16 @@ BOOL CGameObject::net_Spawn		(CSE_Abstract*	DC)
 	VERIFY							(!fis_zero(DET(renderable.xform)));
 	CSE_ALifeObject					*O = smart_cast<CSE_ALifeObject*>(E);
 	if (O && xr_strlen(O->m_ini_string)) {
-		IReader r((void*)(*(O->m_ini_string)), O->m_ini_string.size());
-		m_ini_file = xr_new<CInifile>(&r, FS.get_path("$game_config$")->m_Path);
+#pragma warning(push)
+#pragma warning(disable:4238)
+		m_ini_file					= xr_new<CInifile>(
+			&IReader				(
+				(void*)(*(O->m_ini_string)),
+				O->m_ini_string.size()
+			),
+			FS.get_path("$game_config$")->m_Path
+		);
+#pragma warning(pop)
 	}
 
 	m_story_id						= ALife::_STORY_ID(-1);
@@ -781,6 +795,7 @@ void VisualCallback	(IKinematics *tpKinematics)
 
 CScriptGameObject *CGameObject::lua_game_object		() const
 {
+    if (!this) return NULL;
 #ifdef DEBUG
 	if (!m_spawned)
 		Msg							("! you are trying to use a destroyed object [%x]",this);

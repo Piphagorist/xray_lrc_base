@@ -15,7 +15,12 @@
 #include "../../../detail_path_manager.h"
 #include "../../../CharacterPhysicsSupport.h"
 #include "../control_path_builder_base.h"
+#include "../../../Inventory.h"
+#include "../../../ActorCondition.h"
+#include "../../../xr_level_controller.h"
+#include "../../../weapon.h"
 
+#include "../../../../xrCore/_vector3d_ext.h"
 
 CPseudoGigant::CPseudoGigant()
 {
@@ -289,7 +294,25 @@ void CPseudoGigant::on_threaten_execute()
 	}
 
 	Actor()->lock_accel_for	(m_time_kick_actor_slow_down);
-	
+
+	// Выбить из рук оружие - cari0us
+	CWeapon* const active_weapon	= smart_cast<CWeapon*>(Actor()->inventory().ActiveItem());
+
+	if ( active_weapon )
+	{
+		Fvector dir			= Actor()->Direction();
+		if ( dir.y < 0.f )
+		{
+			dir.y			= -dir.y;
+		}
+		active_weapon->SetActivationSpeedOverride ( normalize(dir) * 8 );
+
+		if ( !Actor()->inventory().Action((u16)kDROP, CMD_STOP) )
+		{
+			Actor()->g_PerformDrop		();
+		}
+	}
+
 	// Нанести хит
 	NET_Packet	l_P;
 	SHit		HS;
