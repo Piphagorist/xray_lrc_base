@@ -511,12 +511,25 @@ void CUIActorMenu::highlight_item_slot(CUICellItem* cell_item)
 
 	u16 slot_id = item->BaseSlot();
 
-	if (weapon && (slot_id == INV_SLOT_2 || slot_id == INV_SLOT_3))
+#ifdef EQUAL_WEAPONS_SLOTS
+	if (weapon && ((slot_id == INV_SLOT_2) || (slot_id == INV_SLOT_3)))
 	{
 		m_InvSlot2Highlight->Show(true);
 		m_InvSlot3Highlight->Show(true);
 		return;
 	}
+#else
+	if (weapon && (slot_id == INV_SLOT_2))
+	{
+		m_InvSlot2Highlight->Show(true);
+		return;
+	}
+	if (weapon && (slot_id == INV_SLOT_3))
+	{
+		m_InvSlot3Highlight->Show(true);
+		return;
+	}
+#endif
 	if(helmet && slot_id == HELMET_SLOT)
 	{
 		m_HelmetSlotHighlight->Show(true);
@@ -863,6 +876,7 @@ bool CUIActorMenu::CanSetItemToList(PIItem item, CUIDragDropListEx* l, u16& ret_
 		return		true;
 	}
 
+#ifdef EQUAL_WEAPONS_SLOTS
 	if(item_slot==INV_SLOT_3 && l==m_pInventoryPistolList)
 	{
 		ret_slot	= INV_SLOT_2;
@@ -874,6 +888,7 @@ bool CUIActorMenu::CanSetItemToList(PIItem item, CUIDragDropListEx* l, u16& ret_
 		ret_slot	= INV_SLOT_3;
 		return		true;
 	}
+#endif
 
 	return false;
 }
