@@ -51,7 +51,7 @@ protected:
     virtual void	OnEmptyClick();
 
     virtual void	OnAnimationEnd(u32 state);
-    virtual void	OnStateSwitch(u32 S);
+    virtual void	OnStateSwitch(u32 S, u32 oldState);
 
     virtual void	UpdateSounds();
 
@@ -75,7 +75,8 @@ public:
     {
         return this;
     }
-
+	
+	virtual bool    UseScopeTexture ();
     virtual void	SetDefaults();
     virtual void	FireStart();
     virtual void	FireEnd();
@@ -91,6 +92,8 @@ public:
     virtual bool	Attach(PIItem pIItem, bool b_send_event);
     virtual bool	Detach(const char* item_section_name, bool b_spawn_item);
     bool	DetachScope(const char* item_section_name, bool b_spawn_item);
+	bool	DetachSilencer(const char* item_section_name, bool b_spawn_item);
+	bool	DetachGrenadeLauncher(const char* item_section_name, bool b_spawn_item);
     virtual bool	CanAttach(PIItem pIItem);
     virtual bool	CanDetach(const char* item_section_name);
 

@@ -71,9 +71,9 @@ void CWeaponKnife::Load	(LPCSTR section)
 	knife_material_idx =  GMLib.GetMaterialIdx(KNIFE_MATERIAL_NAME);
 }
 
-void CWeaponKnife::OnStateSwitch	(u32 S)
+void CWeaponKnife::OnStateSwitch	(u32 S, u32 oldState)
 {
-	inherited::OnStateSwitch(S);
+	inherited::OnStateSwitch(S, oldState);
 	switch (S)
 	{
 	case eIdle:
@@ -83,7 +83,10 @@ void CWeaponKnife::OnStateSwitch	(u32 S)
 		switch2_Showing	();
 		break;
 	case eHiding:
-		switch2_Hiding	();
+		if (oldState != eHiding)
+		{
+			switch2_Hiding();
+		}
 		break;
 	case eHidden:
 		switch2_Hidden	();
@@ -178,8 +181,8 @@ void CWeaponKnife::MakeShot(Fvector const & pos, Fvector const & dir, float cons
 	cartridge.param_s.fWallmarkSize	= fWallmarkSize;
 	cartridge.bullet_material_idx	= knife_material_idx;
 
-	while(m_magazine.size() < 2)	m_magazine.push_back(cartridge);
-	iAmmoElapsed					= m_magazine.size();
+	/*while(m_magazine.size() < 2)*/	m_magazine.push_back(cartridge);
+	m_ammoElapsed.type1					= m_magazine.size();
 	bool SendHit					= SendHitAllowed(H_Parent());
 
 	PlaySound						("sndShot",pos);

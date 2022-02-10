@@ -94,7 +94,7 @@ void CGrenade::OnH_A_Chield()
 	inherited::OnH_A_Chield				();
 }
 
-void CGrenade::State(u32 state) 
+void CGrenade::State(u32 state, u32 old_state) 
 {
 	switch (state)
 	{
@@ -124,7 +124,7 @@ void CGrenade::State(u32 state)
 			};
 		}break;
 	};
-	inherited::State( state );
+	inherited::State( state, old_state );
 }
 
 bool CGrenade::DropGrenade()
@@ -143,9 +143,12 @@ bool CGrenade::DropGrenade()
 }
 
 void CGrenade::DiscardState()
-{
-	if(IsGameTypeSingle() && (GetState()==eReady || GetState()==eThrow) )
-		OnStateSwitch(eIdle);
+{	
+	u32 state = GetState();
+	if (state==eReady || state==eThrow)
+	{
+		OnStateSwitch(eIdle, state);
+	}
 }
 
 void CGrenade::SendHiddenItem						()
@@ -283,7 +286,7 @@ void CGrenade::UpdateCL()
 bool CGrenade::Action(u16 cmd, u32 flags) 
 {
 	if(inherited::Action(cmd, flags)) return true;
-
+/*
 	switch(cmd) 
 	{
 	//переключение типа гранаты
@@ -311,7 +314,7 @@ bool CGrenade::Action(u16 cmd, u32 flags)
 			}
 			return true;
 		};
-	}
+	}*/
 	return false;
 }
 
