@@ -10,9 +10,10 @@
 * Всё здесь исключительно любительское ковыряние движка с серьезным выражением лица. Любые пожелания, претензии и помощь принимаются.
 ## ##
 * #### [Релизы](https://github.com/cari0us/xray_lrc_base/releases/latest) ####
-* #### [Как установить и адаптировать](https://github.com/cari0us/xray_lrc_base/releases/latest) ####
+* #### [Как установить или адаптировать](https://github.com/cari0us/xray_lrc_base/wiki/%D0%9A%D0%B0%D0%BA-%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C-%D0%B8%D0%BB%D0%B8-%D0%B0%D0%B4%D0%B0%D0%BF%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C) ####
+* #### [Полный список изменений](https://github.com/cari0us/xray_lrc_base/wiki/%D0%9F%D0%BE%D0%BB%D0%BD%D1%8B%D0%B9-%D1%81%D0%BF%D0%B8%D1%81%D0%BE%D0%BA-%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D0%B9) ####
 ## ##
-* #### [Как собрать на "конвеере"](https://github.com/cari0us/xray_lrc_base/releases/latest) ####
-* #### [Как собрать в студии](https://github.com/cari0us/xray_lrc_base/releases/latest) ####
+* #### [Как собрать на Appveyor](https://github.com/cari0us/xray_lrc_base/wiki/%D0%9A%D0%B0%D0%BA-%D1%81%D0%BE%D0%B1%D1%80%D0%B0%D1%82%D1%8C-%D0%BD%D0%B0-Appveyor) ####
+* #### [Как собрать в Visual Studio](https://github.com/cari0us/xray_lrc_base/wiki/%D0%9A%D0%B0%D0%BA-%D1%81%D0%BE%D0%B1%D1%80%D0%B0%D1%82%D1%8C-%D0%B2-Visual-Studio) ####
 ## ##
-* #### [Благодарности](https://github.com/cari0us/xray_lrc_base/releases/latest) ####
+* #### [Список благодарностей](https://github.com/cari0us/xray_lrc_base/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA-%D0%B1%D0%BB%D0%B0%D0%B3%D0%BE%D0%B4%D0%B0%D1%80%D0%BD%D0%BE%D1%81%D1%82%D0%B5%D0%B9) ####
