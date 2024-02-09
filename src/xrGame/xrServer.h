@@ -138,7 +138,7 @@ private:
 		CID_Generator<
 			u32,		// time identifier type
 			u8,			// compressed id type 
-			u16,		// id type
+			u32,		// id type
 			u8,			// block id type
 			u16,		// chunk id type
 			0,			// min value
