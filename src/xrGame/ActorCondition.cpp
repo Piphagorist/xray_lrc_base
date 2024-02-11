@@ -626,7 +626,7 @@ void CActorCondition::BoostParameters(const SBooster& B)
 			case eBoostRadiationProtection: BoostRadiationProtection(B.fBoostValue); break;
 			case eBoostTelepaticProtection: BoostTelepaticProtection(B.fBoostValue); break;
 			case eBoostChemicalBurnProtection: BoostChemicalBurnProtection(B.fBoostValue); break;
-			default: NODEFAULT;	
+			default: return;	
 		}
 	}
 }
